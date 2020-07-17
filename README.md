@@ -18,7 +18,7 @@
 - [Online News Companies](#online-news-companies)
 - [YouTube Channels](#youtube-channels)
 - [YouTube News Channels](#youtube-news-channels)
-- [ISP - Internet Service Providers](#internet-service-providers)
+- [ISP Internet Service Providers](#isp-internet-service-providers)
 
 
 
@@ -57,11 +57,13 @@
 ## iOS Apps
 - [HamroPatro](https://apps.apple.com/np/app/hamro-patro-nepali-calendar/id401074157) - HamroPatro.com
 
+
 ## Tech Blogs
 - [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
 
 
 ## Startups
+
 
 ## Facebook Pages & Groups
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
@@ -93,6 +95,7 @@
 
 
 ## YouTube News Channels
+
 
 ## ISP - Internet Service Providers
 - [Classic Tech](https://www.classic.com.np/) - Classic Tech
