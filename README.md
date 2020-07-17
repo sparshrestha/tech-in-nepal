@@ -1,6 +1,6 @@
 # Nepalese In Technology
 ### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
-It is a curation and not a collection. Please send a PR to contribute in this public repo. Listing is alphabetical in order.
+It is a curation and not a collection. `Please send a PR to contribute in this public repo.` Listing is alphabetical in order.
 
 ## Table of index
 - [Software Companies](#software-companies)
@@ -104,6 +104,7 @@ It is a curation and not a collection. Please send a PR to contribute in this pu
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
 - [Nj Subedi](https://njs.com.np/blog/) - Just another technical founder.
 - [verbose tethics](https://blog.sparsh.dev/) - engineering software and times in life
+- [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
 
 
 ## Online News Portals
