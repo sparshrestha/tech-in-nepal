@@ -58,6 +58,9 @@
 - [HamroPatro](https://apps.apple.com/np/app/hamro-patro-nepali-calendar/id401074157) - HamroPatro.com
 
 ## Tech Blogs
+- [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
+
+
 ## Startups
 
 ## Facebook Pages & Groups
@@ -81,6 +84,7 @@
 
 
 ## YouTube Channels
+- [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA) - KookyDunk
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
