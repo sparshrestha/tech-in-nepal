@@ -16,8 +16,8 @@
 - [Instagram Accounts](#instagram-accounts)
 - [Government Websites](#government-websites)
 - [Online News Companies](#online-news-companies)
-- [Nepali YouTube Channels](#nepali-youtube-channels)
-- [Nepali YouTube News Channels](#nepali-youtube-news-channels)
+- [YouTube Channels](#youtube-channels)
+- [YouTube News Channels](#youtube-news-channels)
 
 
 
@@ -59,8 +59,9 @@
 ## Tech Blogs
 ## Startups
 
-## Facebook Pages
+## Facebook Pages & Groups
 - [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
+- [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
 
 
 ## Twitter Handles
@@ -72,10 +73,15 @@
 
 
 ## Government Websites
-
+- [NITC](https://nitc.gov.np/) - National Information Technology Center
 
 ## Online News Companies
 - [Online Khabar](https://www.onlinekhabar.com/) - Online Khabar
 
-## Nepali YouTube Channels
-## Nepali YouTube News Channels
+
+## YouTube Channels
+- [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
+- [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
+
+
+## YouTube News Channels
