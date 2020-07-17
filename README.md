@@ -6,7 +6,7 @@
 - [Games Studios](#games-studios)
 - [Ecommerce](#ecommerce)
 - [Vendor Marketplaces](#vendor-marketplaces)
-- [Online Shopping](#online-shopping)
+- [Online Services](#online-services)
 - [Android Apps](#android-apps)
 - [iOS Apps](#ios-apps)
 - [Tech Blogs](#tech-blogs)
