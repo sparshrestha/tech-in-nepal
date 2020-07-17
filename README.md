@@ -1,5 +1,5 @@
-# Nepal In Technology
-### Curated list of startups, companies and models of entrepreneurship from Nepal in Technology.
+# Nepalese In Technology
+### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
 
 ## Table of index
 - [Software Companies](#software-companies)
