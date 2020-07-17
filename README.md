@@ -90,7 +90,7 @@
 
 
 ## Twitter Handles
-
+- [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
 
 ## Instagram Accounts
 
