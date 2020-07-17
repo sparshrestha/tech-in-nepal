@@ -81,6 +81,8 @@
 
 
 ## YouTube Channels
+- [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA) - KookyDunk
+- [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
 - [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
 
