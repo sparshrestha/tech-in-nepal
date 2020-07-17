@@ -54,7 +54,19 @@
 
 
 ## Android Apps
+- [eSewa](https://play.google.com/store/apps/details?id=com.f1soft.esewa) - eSewa - Mobile Wallet (Nepal)
+- [Foodmandu](https://play.google.com/store/apps/details?id=com.app.foodmandu) - Foodmandu
 - [HamroPatro](https://play.google.com/store/apps/details?id=com.hamropatro) - HamroPatro.com
+- [IME Pay](https://play.google.com/store/apps/details?id=com.swifttechnology.imepay) - IME Pay - Mobile Digital Wallet (Nepal)
+- [Khalti](https://play.google.com/store/apps/details?id=com.khalti) - Khalti Digital Wallet (Nepal)
+- [Ludo](https://play.google.com/store/apps/details?id=io.yarsa.games.ludo) - Ludo Mobile Game
+- [MeroKirana](https://play.google.com/store/apps/details?id=com.merokirana) - Kirana - Online Grocery Shopping App (MeroKirana)
+- [Nepali Patro](https://play.google.com/store/apps/details?id=np.com.nepalipatro) - Nepali Patro : Hamro Samaya Hamro Gaurav
+- [Passport Photo ID Maker Studio](https://play.google.com/store/apps/details?id=io.yarsa.passportphotomaker) - Passport Photo ID Maker Studio - ID Photo Editor
+- [Recharge Card Scanner](https://play.google.com/store/apps/details?id=np.com.rsubedi.ncellntcservices) - Recharge Card Scanner for NTC and Ncell Users
+- [redDoko](https://play.google.com/store/apps/details?id=com.reddoko.buyers) - redDoko: Online Shopping
+- [Tootle](https://play.google.com/store/apps/details?id=com.three60.cabioclient) - Tootle Ride Sharing App
+- [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
 
 
 ## iOS Apps
