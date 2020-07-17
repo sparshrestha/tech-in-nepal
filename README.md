@@ -6,6 +6,7 @@ It is a curation and not a collection. Listing is alphabetical in order.
 
 ## Table of index
 - [Software Companies](#software-companies)
+- [Organization](#organization)
 - [Games Studios](#games-studios)
 - [Ecommerce](#ecommerce)
 - [Vendor Marketplaces](#vendor-marketplaces)
@@ -41,6 +42,10 @@ It is a curation and not a collection. Listing is alphabetical in order.
 - [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
+
+
+## Organization
+- [Girls in Tech Nepal](https://nepal.girlsintech.org/) - Girls in Tech (GIT) is the largest women in tech organization in the world focused on the engagement, education, and empowerment of girls and women who are passionate about technology.
 
 
 ## Games Studios
