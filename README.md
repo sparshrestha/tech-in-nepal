@@ -14,6 +14,7 @@
 - [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
 - [Instagram Accounts](#instagram-accounts)
+- [Tech Bloggers](#tech-bloggers)
 - [Government Websites](#government-websites)
 - [Online News Companies](#online-news-companies)
 - [YouTube Channels](#youtube-channels)
@@ -99,6 +100,12 @@
 ## Instagram Accounts
 
 - [BooksMandala](https://www.instagram.com/booksmandala/) - BooksMandala
+
+## Tech Bloggers
+- [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
+- [Nj Subedi](https://njs.com.np/blog/) - Just another technical founder.
+- [verbose tethics](https://blog.sparsh.dev/) - engineering software and times in life
+
 
 
 ## Government Websites
