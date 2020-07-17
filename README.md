@@ -73,7 +73,8 @@ It is a curation and not a collection. Listing is alphabetical in order.
 - [HamroPatro](https://play.google.com/store/apps/details?id=com.hamropatro) - HamroPatro.com
 - [IME Pay](https://play.google.com/store/apps/details?id=com.swifttechnology.imepay) - IME Pay - Mobile Digital Wallet (Nepal)
 - [Khalti](https://play.google.com/store/apps/details?id=com.khalti) - Khalti Digital Wallet (Nepal)
-- [Ludo](https://play.google.com/store/apps/details?id=io.yarsa.games.ludo) - Ludo Mobile Game
+- [Ludo](https://play.google.com/store/apps/details?id=io.yarsa.games.ludo) - Ludo Mobile Game with 10+ million downloads
+- [merojob](https://play.google.com/store/apps/details?id=com.merojob.merojobapp) - an ISO 9001:2015 Certified Company has turned out to be number one jobs provider in Nepal with 300 million+ page views with 2.5 million+ progressive visits every month, created 180,000+ success stories and registered 600,000+ job seekers
 - [MeroKirana](https://play.google.com/store/apps/details?id=com.merokirana) - Kirana - Online Grocery Shopping App (MeroKirana)
 - [Nepali Patro](https://play.google.com/store/apps/details?id=np.com.nepalipatro) - Nepali Patro : Hamro Samaya Hamro Gaurav
 - [Passport Photo ID Maker Studio](https://play.google.com/store/apps/details?id=io.yarsa.passportphotomaker) - Passport Photo ID Maker Studio - ID Photo Editor
