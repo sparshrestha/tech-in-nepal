@@ -1,12 +1,12 @@
-# Nepalese In Technology
+## Nepalese In Technology
 ### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
-It is a curation and not a collection. Listing is alphabetical in order.
-
-`Please send a Pull Request to contribute in this public repo.`
+#### It is a curation and not a collection. Listing is alphabetical in order.
+##### `Please send a Pull Request to contribute in this public repo.`
 
 ## Table of index
 - [Software Companies](#software-companies)
 - [Organization](#organization)
+- [CyberSecurity Companies](#cybersecurity-companies)
 - [Games Studios](#games-studios)
 - [Ecommerce](#ecommerce)
 - [Vendor Marketplaces](#vendor-marketplaces)
@@ -22,7 +22,6 @@ It is a curation and not a collection. Listing is alphabetical in order.
 - [Online News Portals](#online-news-portals)
 - [YouTube Channels](#youtube-channels)
 - [ISP Internet Service Providers](#isp-internet-service-providers)
-
 
 
 ## Software Companies
@@ -46,6 +45,14 @@ It is a curation and not a collection. Listing is alphabetical in order.
 
 ## Organization
 - [Girls in Tech Nepal](https://nepal.girlsintech.org/) - Girls in Tech (GIT) is the largest women in tech organization in the world focused on the engagement, education, and empowerment of girls and women who are passionate about technology.
+
+
+## CyberSecurity Companies
+- [bugv](https://bugv.io/) - Nepal First Crowdsourced Cyber Security Platform
+- [CryptoGen Nepal](https://cryptogennepal.com/) - A Cyber Security Solutions company that aims to provide professional cyber security solutions
+- [https://cynicaltechnology.com/](https://cynicaltechnology.com/) - A Kathmandu-based cyber-security startup company
+- [SayCure](https://saycure.io/) - We are a group of young, enthusiastic and like minded people based in Nepal working together through our expertise in various domains of information security for a common goal of securing the Internet cyber space.
+- [EMINENCE WAYS](https://eminenceways.com/) - SECURES YOUR DATA FROM UNAUTHORIZED ACCESS OR MODIFICATION
 
 
 ## Games Studios
