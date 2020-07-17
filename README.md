@@ -23,8 +23,11 @@
 
 
 ## Software Companies
-
 - [CodeSastra](https://codesastra.com/) - CodeSastra Software
+- [Fusemachines Inc.](https://www.fusemachines.com/) - Fusemachines is positioned to disrupt the business landscape through our AI Talent Solutions
+- [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
+- [Genese Cloud Academy](https://www.genesecloud.academy/) - Introduce, train, and upskill students in Cloud Computing ecosystem
+- [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 
@@ -66,6 +69,7 @@
 
 
 ## Facebook Pages & Groups
+- [ByteBase](https://www.facebook.com/bytebase/) - ByteBase
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
 - [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
