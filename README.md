@@ -50,7 +50,7 @@
 ## CyberSecurity Companies
 - [bugv](https://bugv.io/) - Nepal First Crowdsourced Cyber Security Platform
 - [CryptoGen Nepal](https://cryptogennepal.com/) - A Cyber Security Solutions company that aims to provide professional cyber security solutions
-- [https://cynicaltechnology.com/](https://cynicaltechnology.com/) - A Kathmandu-based cyber-security startup company
+- [Cynical Technology](https://cynicaltechnology.com/) - A Kathmandu-based cyber-security startup company
 - [SayCure](https://saycure.io/) - We are a group of young, enthusiastic and like minded people based in Nepal working together through our expertise in various domains of information security for a common goal of securing the Internet cyber space.
 - [EMINENCE WAYS](https://eminenceways.com/) - SECURES YOUR DATA FROM UNAUTHORIZED ACCESS OR MODIFICATION
 
