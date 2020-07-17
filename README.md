@@ -18,6 +18,7 @@
 - [Online News Companies](#online-news-companies)
 - [YouTube Channels](#youtube-channels)
 - [YouTube News Channels](#youtube-news-channels)
+- [ISP - Internet Service Providers](#internet-service-providers)
 
 
 
@@ -85,3 +86,10 @@
 
 
 ## YouTube News Channels
+
+## ISP - Internet Service Providers
+- [Classic Tech](https://www.classic.com.np/) - Classic Tech
+- [NTC](https://www.ntc.net.np/) - Nepal Telecom
+- [Subisu](https://subisu.net.np/) - Subisu
+- [Vianet](https://www.vianet.com.np/) - Vianet
+- [Wordlink](https://worldlink.com.np/) - Worldlink
