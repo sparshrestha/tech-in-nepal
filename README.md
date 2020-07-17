@@ -15,10 +15,8 @@
 - [Twitter Handles](#twitter-handles)
 - [Instagram Accounts](#instagram-accounts)
 - [Tech Bloggers](#tech-bloggers)
-- [Government Websites](#government-websites)
-- [Online News Companies](#online-news-companies)
+- [Online News Portals](#online-news-portals)
 - [YouTube Channels](#youtube-channels)
-- [YouTube News Channels](#youtube-news-channels)
 - [ISP Internet Service Providers](#isp-internet-service-providers)
 
 
@@ -107,11 +105,7 @@
 - [verbose tethics](https://blog.sparsh.dev/) - engineering software and times in life
 
 
-
-## Government Websites
-- [NITC](https://nitc.gov.np/) - National Information Technology Center
-
-## Online News Companies
+## Online News Portals
 - [Online Khabar](https://www.onlinekhabar.com/) - Online Khabar
 
 
@@ -122,9 +116,6 @@
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
 - [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
-
-
-## YouTube News Channels
 
 
 ## ISP Internet Service Providers
