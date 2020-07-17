@@ -102,6 +102,7 @@
 
 ## Tech Blogs
 - [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
+- [TechGuff](https://techguff.com/) - Techguff is your technical news website.
 
 
 ## Startups
@@ -115,6 +116,7 @@
 - [Ghumante](https://www.facebook.com/groups/ghumante/) - This is a group for Travelers, where they can share their travel stories, memories and discuss travel plans as well as seek travel suggestions. Anything related to traveling, especially inside Nepal, is welcome for discussion.
 - [KarmaLive](https://www.facebook.com/KarmaGoLive/) - Hey, welcome here. I do live gameplay and provide awesome gameplay videos. Gaming Video Creator
 - [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
+- [TechGuff](https://www.facebook.com/techguff/) - TechGuff
 
 
 ## Twitter Handles
@@ -143,7 +145,8 @@
 - [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
 - [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA) - KookyDunk
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
-- [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
+- [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
+- [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
 - [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
 
 
