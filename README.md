@@ -83,7 +83,9 @@
 ## Facebook Pages Groups
 - [ByteBase](https://www.facebook.com/bytebase/) - ByteBase
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
+- [Facebook Developer Circle](https://www.facebook.com/groups/DevCKathmandu/) - Facebook Developer Circle: Kathmandu
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
+- [Ghumante](https://www.facebook.com/groups/ghumante/) - This is a group for Travelers, where they can share their travel stories, memories and discuss travel plans as well as seek travel suggestions. Anything related to traveling, especially inside Nepal, is welcome for discussion.
 - [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
 
 
@@ -104,6 +106,7 @@
 
 ## YouTube Channels
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
+- [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
 - [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA) - KookyDunk
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw) - Bishworaj Poudel
