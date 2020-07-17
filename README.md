@@ -27,6 +27,7 @@
 - [Fusemachines Inc.](https://www.fusemachines.com/) - Fusemachines is positioned to disrupt the business landscape through our AI Talent Solutions
 - [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
 - [Genese Cloud Academy](https://www.genesecloud.academy/) - Introduce, train, and upskill students in Cloud Computing ecosystem
+- [Janaki Tech](http://janakitech.com/) - Janaki Technology
 - [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
@@ -49,8 +50,10 @@
 - [sastodeal](https://sastodeal.com/) - SastoDeal
 
 
-## Online Shopping
+## Online Services 
 - [BooksMandala](https://www.booksmandala.com/) - Online BookShop
+- [Kinumna](https://www.kinumna.com/) - Kinumna.com is a young and dynamic online shopping company in Nepal.
+- [Sparrow SMS](https://sparrowsms.com/) - Bulk SMS Service in Nepal
 
 
 ## Android Apps
