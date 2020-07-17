@@ -33,7 +33,7 @@
 
 
 ## Games Studios
-
+- [Sroth Code Games](https://www.facebook.com/srothcodegames/) - Sroth Code is a mobile game development company that draws inspiration from Nepal’s rich and varied culture and history.
 - [Yarsa Games](https://yarsagames.com/)
 
 
@@ -86,6 +86,7 @@
 - [Facebook Developer Circle](https://www.facebook.com/groups/DevCKathmandu/) - Facebook Developer Circle: Kathmandu
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
 - [Ghumante](https://www.facebook.com/groups/ghumante/) - This is a group for Travelers, where they can share their travel stories, memories and discuss travel plans as well as seek travel suggestions. Anything related to traveling, especially inside Nepal, is welcome for discussion.
+- [KarmaLive](https://www.facebook.com/KarmaGoLive/) - Hey, welcome here. I do live gameplay and provide awesome gameplay videos. Gaming Video Creator
 - [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
 
 
