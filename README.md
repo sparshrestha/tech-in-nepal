@@ -1,6 +1,8 @@
 # Nepalese In Technology
 ### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
-It is a curation and not a collection. `Please send a PR to contribute in this public repo.` Listing is alphabetical in order.
+It is a curation and not a collection. Listing is alphabetical in order.
+
+`Please send a Pull Request to contribute in this public repo.`
 
 ## Table of index
 - [Software Companies](#software-companies)
