@@ -120,7 +120,10 @@ It is a curation and not a collection. Listing is alphabetical in order.
 
 
 ## Online News Portals
+- [eKantipur](https://ekantipur.com/) - Kantipur Daily is Nepal's no 1 Nepali news portal and Kantipur Daily's official website
 - [Online Khabar](https://www.onlinekhabar.com/) - Online Khabar
+- [Ratopati](https://ratopati.com/) - Politics, Opinions, Sports, Entertainment, Corporate, English news, Blogs and other news from Nepal
+- [The Himalayan Times](https://thehimalayantimes.com/) - Out of Kathmandu, the latest breaking news,analysis and opinion from Nepal and the world on politics, business, sports, entertainment, and much mores
 
 
 ## YouTube Channels
