@@ -28,6 +28,7 @@ It is a curation and not a collection. Listing is alphabetical in order.
 - [Amnil Technologies](http://amniltech.com/) - Amnil Technologies P. Ltd
 - [Bajra Technologies](https://bajratechnologies.com/) - Years of Industry Experience in Mobile and Web Solutions
 - [Braindigit](https://braindigit.com/) - We develop cloud solutions for small and medium sized company to take their business online to compete in global marketplace.
+- [Brikshya Technologies](https://brikshya.com/) - We focus on creating clean, modern & responsive interfaces that defines international industry standard. We focus on web and mobile application development, System Design and other services related to modern technology.
 - [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
 - [deerwalk](https://www.deerwalk.com/) - Peak Performing Health Analytics Solutions Built on a Foundation of Data Integrity
 - [Evolve](https://www.evolveasia.co/) - We are a tech startup looking to disrupt the USD 2 Billion FMCG industry in Nepal and then beyond.
