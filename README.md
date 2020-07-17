@@ -64,8 +64,9 @@
 ## Startups
 
 ## Facebook Pages & Groups
-- [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
+- [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
+- [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
 
 
 ## Twitter Handles
