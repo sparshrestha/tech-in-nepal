@@ -97,7 +97,7 @@
 ## YouTube News Channels
 
 
-## ISP - Internet Service Providers
+## ISP Internet Service Providers
 - [Classic Tech](https://www.classic.com.np/) - Classic Tech
 - [NTC](https://www.ntc.net.np/) - Nepal Telecom
 - [Subisu](https://subisu.net.np/) - Subisu
