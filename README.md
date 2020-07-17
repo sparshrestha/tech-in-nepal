@@ -25,6 +25,13 @@ It is a curation and not a collection. Listing is alphabetical in order.
 
 
 ## Software Companies
+- [Amnil Technologies](http://amniltech.com/) - Amnil Technologies P. Ltd
+- [Bajra Technologies](https://bajratechnologies.com/) - Years of Industry Experience in Mobile and Web Solutions
+- [Braindigit](https://braindigit.com/) - We develop cloud solutions for small and medium sized company to take their business online to compete in global marketplace.
+- [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
+- [deerwalk](https://www.deerwalk.com/) - Peak Performing Health Analytics Solutions Built on a Foundation of Data Integrity
+- [Evolve](https://www.evolveasia.co/) - We are a tech startup looking to disrupt the USD 2 Billion FMCG industry in Nepal and then beyond.
+- [F1Soft](https://f1soft.com/) - Our solutions connect people to financial services in simple, secure and affordable ways.
 - [CodeSastra](https://codesastra.com/) - CodeSastra Software
 - [Fusemachines Inc.](https://www.fusemachines.com/) - Fusemachines is positioned to disrupt the business landscape through our AI Talent Solutions
 - [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
