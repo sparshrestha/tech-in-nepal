@@ -58,7 +58,11 @@
 
 ## Tech Blogs
 ## Startups
+
 ## Facebook Pages
+- [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
+
+
 ## Twitter Handles
 
 
@@ -68,6 +72,10 @@
 
 
 ## Government Websites
+
+
 ## Online News Companies
+- [Online Khabar](https://www.onlinekhabar.com/) - Online Khabar
+
 ## Nepali YouTube Channels
 ## Nepali YouTube News Channels
