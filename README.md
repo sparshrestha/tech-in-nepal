@@ -11,7 +11,7 @@
 - [iOS Apps](#ios-apps)
 - [Tech Blogs](#tech-blogs)
 - [Startups](#startups)
-- [Facebook Pages](#facebook-pages)
+- [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
 - [Instagram Accounts](#instagram-accounts)
 - [Government Websites](#government-websites)
@@ -80,7 +80,7 @@
 ## Startups
 
 
-## Facebook Pages & Groups
+## Facebook Pages Groups
 - [ByteBase](https://www.facebook.com/bytebase/) - ByteBase
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
