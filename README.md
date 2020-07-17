@@ -44,6 +44,7 @@ It is a curation and not a collection. Listing is alphabetical in order.
 
 
 ## Games Studios
+- [Reizon Studios](https://reizonstudios.com/) - CREATIVE DEVELOPMENT STUDIO
 - [Sroth Code Games](https://www.facebook.com/srothcodegames/) - Sroth Code is a mobile game development company that draws inspiration from Nepal’s rich and varied culture and history.
 - [Yarsa Games](https://yarsagames.com/)
 
