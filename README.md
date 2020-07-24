@@ -146,11 +146,14 @@
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
 - [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA/) - KookyDunk
+- [Lemii](https://www.youtube.com/channel/UCuZlBKYe4VeM-wS36v4_y_g/) - Lemii
 - [NepalRevives](https://www.youtube.com/c/NepalRevives/) - We research, write, and create videos that help people better understand our nation Nepal, meanwhile providing improvised education about modern science and politics
 - [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
+- [Sisan Baniya](https://www.youtube.com/c/SisanBaniya/) - short movies, funny advertisements and music
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
+- [The Doers Nepal](https://www.youtube.com/c/TheDoersNepal/) - We believe Nepal has tons of opportunities. We want to bring these people who are doing amazing things and talk to them about why and how are they doing the things they are doing
 - [VMAG](https://www.youtube.com/user/tkpmoversandshakers/) - VMAG produces numerous interesting, substantial and impactful content with the aim to manifest everything Nepal and Nepali, catering to viewers all around the world.
 - [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
 
