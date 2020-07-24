@@ -150,6 +150,7 @@
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
+- [VMAG](https://www.youtube.com/user/tkpmoversandshakers/) - VMAG produces numerous interesting, substantial and impactful content with the aim to manifest everything Nepal and Nepali, catering to viewers all around the world.
 - [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
 
 
