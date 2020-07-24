@@ -106,7 +106,7 @@
 
 
 ## Education
-- [Padain.com](https://padain.com/) - Padain,com is our startup initiative where we are digitalizing educational resources. We hire part time teachers to make contents like videos and e-notes on different subjects, and then sell the contents to the students through our website and app.
+- [Padain.com](https://padain.com/) - Padain.com is our startup initiative where we are digitalizing educational resources. We hire part time teachers to make contents like videos and e-notes on different subjects, and then sell the contents to the students through our website and app.
  
 
 ## Facebook Pages Groups
@@ -142,6 +142,7 @@
 
 
 ## YouTube Channels
+- [Fuzz Factory](https://www.youtube.com/c/FuzzFactoryProductions/) - Fuzz Factory Productions is a media production company offering a variety of Audio Visual production services
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
 - [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA/) - KookyDunk
@@ -159,4 +160,4 @@
 - [NTC](https://www.ntc.net.np/) - Nepal Telecom
 - [Subisu](https://subisu.net.np/) - Subisu
 - [Vianet](https://www.vianet.com.np/) - Vianet
-- [Wordlink](https://worldlink.com.np/) - Worldlink
+- [Worldlink](https://worldlink.com.np/) - Worldlink
