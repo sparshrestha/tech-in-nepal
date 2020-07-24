@@ -14,7 +14,7 @@
 - [Android Apps](#android-apps)
 - [iOS Apps](#ios-apps)
 - [Tech Blogs](#tech-blogs)
-- [Startups](#startups)
+- [Education](#education)
 - [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
 - [Instagram Accounts](#instagram-accounts)
@@ -105,8 +105,9 @@
 - [TechGuff](https://techguff.com/) - Techguff is your technical news website.
 
 
-## Startups
-
+## Education
+- [Padain.com](https://padain.com/) - Padain,com is our startup initiative where we are digitalizing educational resources. We hire part time teachers to make contents like videos and e-notes on different subjects, and then sell the contents to the students through our website and app.
+ 
 
 ## Facebook Pages Groups
 - [ByteBase](https://www.facebook.com/bytebase/) - ByteBase
@@ -143,7 +144,9 @@
 ## YouTube Channels
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
-- [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA) - KookyDunk
+- [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA/) - KookyDunk
+- [NepalRevives](https://www.youtube.com/c/NepalRevives/) - We research, write, and create videos that help people better understand our nation Nepal, meanwhile providing improvised education about modern science and politics
+- [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
 - [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
