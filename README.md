@@ -11,8 +11,7 @@
 - [Ecommerce](#ecommerce)
 - [Vendor Marketplaces](#vendor-marketplaces)
 - [Online Services](#online-services)
-- [Android Apps](#android-apps)
-- [iOS Apps](#ios-apps)
+- [Mobile Apps](#mobile-apps)
 - [Tech Blogs](#tech-blogs)
 - [Education](#education)
 - [Facebook Pages Groups](#facebook-pages-groups)
@@ -79,10 +78,10 @@
 - [Sparrow SMS](https://sparrowsms.com/) - Bulk SMS Service in Nepal
 
 
-## Android Apps
+## Mobile Apps
 - [eSewa](https://play.google.com/store/apps/details?id=com.f1soft.esewa) - eSewa - Mobile Wallet (Nepal)
 - [Foodmandu](https://play.google.com/store/apps/details?id=com.app.foodmandu) - Foodmandu
-- [HamroPatro](https://play.google.com/store/apps/details?id=com.hamropatro) - HamroPatro.com
+- HamroPatro.com - [Android](https://play.google.com/store/apps/details?id=com.hamropatro) [iOS](https://apps.apple.com/np/app/hamro-patro-nepali-calendar/id401074157)
 - [IME Pay](https://play.google.com/store/apps/details?id=com.swifttechnology.imepay) - IME Pay - Mobile Digital Wallet (Nepal)
 - [Khalti](https://play.google.com/store/apps/details?id=com.khalti) - Khalti Digital Wallet (Nepal)
 - [Ludo](https://play.google.com/store/apps/details?id=io.yarsa.games.ludo) - Ludo Mobile Game with 10+ million downloads
@@ -94,10 +93,6 @@
 - [redDoko](https://play.google.com/store/apps/details?id=com.reddoko.buyers) - redDoko: Online Shopping
 - [Tootle](https://play.google.com/store/apps/details?id=com.three60.cabioclient) - Tootle Ride Sharing App
 - [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
-
-
-## iOS Apps
-- [HamroPatro](https://apps.apple.com/np/app/hamro-patro-nepali-calendar/id401074157) - HamroPatro.com
 
 
 ## Tech Blogs
