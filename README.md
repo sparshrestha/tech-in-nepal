@@ -70,6 +70,7 @@
 ## Vendor Marketplaces
 - [daraz](https://daraz.com.np/) - Daraz Online Shopping
 - [sastodeal](https://sastodeal.com/) - SastoDeal
+- [basobaas](https://basobaas.com/) - Looking For A Property? Search your dream home on Nepal’s largest property marketplace
 
 
 ## Online Services 
