@@ -69,6 +69,7 @@
 
 ## Vendor Marketplaces
 - [daraz](https://daraz.com.np/) - Daraz Online Shopping
+- [Foodmario](http://foodmario.com/) - Foodmario is Nepal’s first and only platform that connects home chefs with customers all over Kathmandu Valley.
 - [sastodeal](https://sastodeal.com/) - SastoDeal
 - [basobaas](https://basobaas.com/) - Looking For A Property? Search your dream home on Nepal’s largest property marketplace
 
