@@ -126,6 +126,7 @@
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
+- [Geshan's Blog](https://geshan.com.np/) - Hi, I am Geshan. I am a software engineer, with more than a decade of software engineering experience. Currently, I am living in Sydney, Australia serving THE ICONIC as a senior software engineer.
 - [Nj Subedi](https://njs.com.np/blog/) - Just another technical founder.
 - [verbose tethics](https://blog.sparsh.dev/) - engineering software and times in life
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
