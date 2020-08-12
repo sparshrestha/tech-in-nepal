@@ -39,6 +39,7 @@
 - [Janaki Tech](http://janakitech.com/) - Janaki Technology
 - [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
+- [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 
 
