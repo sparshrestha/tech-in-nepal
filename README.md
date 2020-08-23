@@ -30,6 +30,7 @@
 - [Brikshya Technologies](https://brikshya.com/) - We focus on creating clean, modern & responsive interfaces that defines international industry standard. We focus on web and mobile application development, System Design and other services related to modern technology.
 - [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
 - [deerwalk](https://www.deerwalk.com/) - Peak Performing Health Analytics Solutions Built on a Foundation of Data Integrity
+- [ESRTech](https://esrtech.io/) - Technology Based Solutions
 - [Evolve](https://www.evolveasia.co/) - We are a tech startup looking to disrupt the USD 2 Billion FMCG industry in Nepal and then beyond.
 - [F1Soft](https://f1soft.com/) - Our solutions connect people to financial services in simple, secure and affordable ways.
 - [CodeSastra](https://codesastra.com/) - CodeSastra Software
