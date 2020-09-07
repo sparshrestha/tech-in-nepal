@@ -13,12 +13,9 @@
 - [Online Services](#online-services)
 - [Mobile Apps](#mobile-apps)
 - [Tech Blogs](#tech-blogs)
-- [Education](#education)
 - [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
-- [Instagram Accounts](#instagram-accounts)
 - [Tech Bloggers](#tech-bloggers)
-- [Online News Portals](#online-news-portals)
 - [YouTube Channels](#youtube-channels)
 - [ISP Internet Service Providers](#isp-internet-service-providers)
 
@@ -113,18 +110,11 @@
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
 - [Facebook Developer Circle](https://www.facebook.com/groups/DevCKathmandu/) - Facebook Developer Circle: Kathmandu
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
-- [Ghumante](https://www.facebook.com/groups/ghumante/) - This is a group for Travelers, where they can share their travel stories, memories and discuss travel plans as well as seek travel suggestions. Anything related to traveling, especially inside Nepal, is welcome for discussion.
-- [KarmaLive](https://www.facebook.com/KarmaGoLive/) - Hey, welcome here. I do live gameplay and provide awesome gameplay videos. Gaming Video Creator
-- [Routine of Nepal Banda](https://facebook.com/officialroutineofnepalbanda/) - Routine of Nepal
 - [TechGuff](https://www.facebook.com/techguff/) - TechGuff
 
 
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
-
-## Instagram Accounts
-
-- [BooksMandala](https://www.instagram.com/booksmandala/) - BooksMandala
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
@@ -133,29 +123,12 @@
 - [verbose tethics](https://blog.sparsh.dev/) - engineering software and times in life
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
 
-
-## Online News Portals
-- [eKantipur](https://ekantipur.com/) - Kantipur Daily is Nepal's no 1 Nepali news portal and Kantipur Daily's official website
-- [Online Khabar](https://www.onlinekhabar.com/) - Online Khabar
-- [Ratopati](https://ratopati.com/) - Politics, Opinions, Sports, Entertainment, Corporate, English news, Blogs and other news from Nepal
-- [The Himalayan Times](https://thehimalayantimes.com/) - Out of Kathmandu, the latest breaking news,analysis and opinion from Nepal and the world on politics, business, sports, entertainment, and much mores
-
-
 ## YouTube Channels
-- [Fuzz Factory](https://www.youtube.com/c/FuzzFactoryProductions/) - Fuzz Factory Productions is a media production company offering a variety of Audio Visual production services
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
-- [Ghumante](https://www.youtube.com/channel/UCXAEisvouf1Tp5fuoKJUrgw) - A collection of some of our travels and journeys within Nepal alongwith some of the best videos on youtube about traveling in Nepal!
-- [KookyDunk](https://www.youtube.com/channel/UC60KZ2O1ee79_Xc6uc37CzA/) - KookyDunk
-- [Lemii](https://www.youtube.com/channel/UCuZlBKYe4VeM-wS36v4_y_g/) - Lemii
-- [NepalRevives](https://www.youtube.com/c/NepalRevives/) - We research, write, and create videos that help people better understand our nation Nepal, meanwhile providing improvised education about modern science and politics
 - [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
-- [ParadygmTV](https://www.youtube.com/c/ParadygmTV) - ParadygmTV
-- [Sisan Baniya](https://www.youtube.com/c/SisanBaniya/) - short movies, funny advertisements and music
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
 - [The Doers Nepal](https://www.youtube.com/c/TheDoersNepal/) - We believe Nepal has tons of opportunities. We want to bring these people who are doing amazing things and talk to them about why and how are they doing the things they are doing
-- [VMAG](https://www.youtube.com/user/tkpmoversandshakers/) - VMAG produces numerous interesting, substantial and impactful content with the aim to manifest everything Nepal and Nepali, catering to viewers all around the world.
-- [Why So Offended ?](https://www.youtube.com/channel/UC2CAM55AnDflrpC20uH700A) - Looking for some doses of laughter ? Just go through the video playlist. Laughter guaranteed!
 
 
 ## ISP Internet Service Providers
