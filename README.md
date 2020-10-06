@@ -130,6 +130,9 @@
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
 - [The Doers Nepal](https://www.youtube.com/c/TheDoersNepal/) - We believe Nepal has tons of opportunities. We want to bring these people who are doing amazing things and talk to them about why and how are they doing the things they are doing
+- [Dave Lee](https://www.youtube.com/channel/UCVYamHliCI9rw1tHR1xbkfw) - Phones and Laptop Reviews
+- [Marques Brownlee](https://www.youtube.com/user/marquesbrownlee) - Gadget Reviews
+- [Unbox Therapy](https://www.youtube.com/user/unboxtherapy) - Unboxing and reviews
 
 
 ## ISP Internet Service Providers
