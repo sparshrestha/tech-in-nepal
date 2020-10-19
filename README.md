@@ -95,6 +95,7 @@
 - [redDoko](https://play.google.com/store/apps/details?id=com.reddoko.buyers) - redDoko: Online Shopping
 - [Tootle](https://play.google.com/store/apps/details?id=com.three60.cabioclient) - Tootle Ride Sharing App
 - [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
+- [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 
 
 ## Tech Blogs
@@ -133,6 +134,7 @@
 - [Lokesh Oli](https://www.youtube.com/user/mrhdnepal) - Everything technology.
 - [Nepal Drives](https://www.youtube.com/channel/UCvKCK6__-Gqut5vhuzSpXzA) - News on cars in nepal and international countries.
 - [Carmandu](https://www.youtube.com/channel/UCICbxV8k_oFsXS7ljwSuyMA) - All about Cars
+- [Oliz Store](https://www.youtube.com/channel/UCYzJGfe3dXbLOifGwprNosg) - Gadget reviews.
 
 
 ## ISP Internet Service Providers
