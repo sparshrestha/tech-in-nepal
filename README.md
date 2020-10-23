@@ -145,3 +145,5 @@
 - [Subisu](https://subisu.net.np/) - Subisu
 - [Vianet](https://www.vianet.com.np/) - Vianet
 - [Worldlink](https://worldlink.com.np/) - Worldlink
+- [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
+- [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
