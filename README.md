@@ -39,6 +39,7 @@
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
+- [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
 
 
 ## Organization
@@ -117,6 +118,7 @@
 
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
+- [Shiraj Pradhanang](https://twitter.com/shirajpra) - Backend Web Developer
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
