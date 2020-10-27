@@ -40,6 +40,7 @@
 - [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
+- [Skein Softwares](https://skeinsoft.com/)
 
 
 ## Organization
@@ -66,6 +67,7 @@
 - [Oodi Shop](https://oodi.shop) - Oodi
 - [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
 - [Yarsa Bazar](https://yarsabazar.com)
+- [Strike sales](https://www.strikesales.com/) - Shop in international marketplace and get your products devivered to you in Nepal.
 
 
 ## Vendor Marketplaces
