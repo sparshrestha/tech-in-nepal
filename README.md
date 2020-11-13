@@ -65,9 +65,10 @@
 ## Ecommerce
 - [hamrobazar](https://hamrobazar.com/) - HamroBazaar
 - [Oodi Shop](https://oodi.shop) - Oodi
-- [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
-- [Yarsa Bazar](https://yarsabazar.com)
 - [Strike sales](https://www.strikesales.com/) - Shop in international marketplace and get your products devivered to you in Nepal.
+- [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
+- [UG Bazaar](https://www.ugbazaar.com/) - Send gifts to Nepal. Send cakes to Nepal. Online Shopping
+- [Yarsa Bazar](https://yarsabazar.com)
 
 
 ## Vendor Marketplaces
