@@ -81,6 +81,7 @@
 ## Online Services 
 - [BooksMandala](https://www.booksmandala.com/) - Online BookShop
 - [Kinumna](https://www.kinumna.com/) - Kinumna.com is a young and dynamic online shopping company in Nepal.
+- [Mentors Online Education](https://mentors.com.np/) - education through digitalization
 - [Sparrow SMS](https://sparrowsms.com/) - Bulk SMS Service in Nepal
 
 
