@@ -144,6 +144,7 @@
 
 
 ## ISP Internet Service Providers
+- [CG NET](https://cgnet.com.np/) - CG NET
 - [Classic Tech](https://www.classic.com.np/) - Classic Tech
 - [NTC](https://www.ntc.net.np/) - Nepal Telecom
 - [Subisu](https://subisu.net.np/) - Subisu
@@ -151,4 +152,3 @@
 - [Worldlink](https://worldlink.com.np/) - Worldlink
 - [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
-- [CG NET](https://cgnet.com.np/) - CG NET
