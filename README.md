@@ -151,3 +151,4 @@
 - [Worldlink](https://worldlink.com.np/) - Worldlink
 - [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
+- [CG NET](https://cgnet.com.np/) - CG NET
