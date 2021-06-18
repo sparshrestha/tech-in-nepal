@@ -1,4 +1,4 @@
-## Nepalese In Technology
+## Technology in Nepal
 ### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
 #### It is a curation and not a collection. Listing is alphabetical in order.
 ##### `Please send a Pull Request to contribute in this public repo.`
