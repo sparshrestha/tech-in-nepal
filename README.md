@@ -23,6 +23,7 @@
 ## Software Companies
 - [Amnil Technologies](http://amniltech.com/) - Amnil Technologies P. Ltd
 - [Bajra Technologies](https://bajratechnologies.com/) - Years of Industry Experience in Mobile and Web Solutions
+- [Bottle Technology](https://bottle.com.np/) | Jhamshikhel, Lalitpur | A fintech company mostly specializing in the space of Artificial Intelligence, Behavioral Economics and Internet of Things.
 - [Braindigit](https://braindigit.com/) - We develop cloud solutions for small and medium sized company to take their business online to compete in global marketplace.
 - [Brikshya Technologies](https://brikshya.com/) - We focus on creating clean, modern & responsive interfaces that defines international industry standard. We focus on web and mobile application development, System Design and other services related to modern technology.
 - [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
