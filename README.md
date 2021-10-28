@@ -106,6 +106,7 @@
 ## Tech Blogs
 - [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
 - [TechGuff](https://techguff.com/) - Techguff is your technical news website.
+- [Yarsa Labs DevBlog](https://blog.yarsalabs.com/) - Technical stories and guides from Yarsa Labs.
 
 
 ## Education
