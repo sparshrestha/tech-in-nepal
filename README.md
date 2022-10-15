@@ -39,10 +39,10 @@
 - [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
-- [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
 - [Skein Softwares](https://skeinsoft.com/)
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
+- [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 
 
 ## Organization
