@@ -42,6 +42,7 @@
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
 - [Skein Softwares](https://skeinsoft.com/)
+- [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
 
 
 ## Organization
