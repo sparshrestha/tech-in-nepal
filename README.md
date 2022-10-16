@@ -58,8 +58,8 @@
 
 
 ## Games Studios
-- [Reizon Studios](https://reizonstudios.com/) - CREATIVE DEVELOPMENT STUDIO
 - [Sroth Code Games](https://www.facebook.com/srothcodegames/) - Sroth Code is a mobile game development company that draws inspiration from Nepal’s rich and varied culture and history.
+- [TeslaTech ](https://teslatech.com.np/) - Riding on the wave of success of the world leading online card game – Callbreak, Teslatech is at her core, a globally competitive tech company fueled by a fierce ambition and at a unique position to contribute to the advancement of technology and thus our society.
 - [Yarsa Games](https://yarsagames.com/)
 
 
