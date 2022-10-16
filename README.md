@@ -132,6 +132,7 @@
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
 
 ## YouTube Channels
+- [GadgetByte](https://www.youtube.com/c/GadgetByte) - GadgetByte is a Tech Review News Portal that gives the users information, tools, and advice that will help them decide get the most out of the Tech.
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
