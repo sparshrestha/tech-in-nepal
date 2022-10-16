@@ -142,6 +142,8 @@
 - [Nepal Drives](https://www.youtube.com/channel/UCvKCK6__-Gqut5vhuzSpXzA) - News on cars in nepal and international countries.
 - [Carmandu](https://www.youtube.com/channel/UCICbxV8k_oFsXS7ljwSuyMA) - All about Cars
 - [Oliz Store](https://www.youtube.com/channel/UCYzJGfe3dXbLOifGwprNosg) - Gadget reviews.
+- [ON AIR](https://www.youtube.com/user/becomingsanjay) - Welcome to the official YouTube channel of Sanjay Silwal Gupta. We present you with diverse informative and entertaining segments with multiple Nepali extraordinaire belonging to various professional sectors.
+- [Paradygm TV](https://www.youtube.com/c/ParadygmTV/) - Paradygm TV
 
 
 ## ISP Internet Service Providers
