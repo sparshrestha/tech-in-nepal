@@ -110,7 +110,7 @@
 
 ## Tech News
 - [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
-- [TechGuff](https://techguff.com/) - Techguff is your technical news website.
+- [TechLekh](https://techlekh.com/) - TechLekh is Nepal’s leading digital tech media company, dedicated to representing the latest ideas and innovations entering the Nepali market. Our goal is to provide a one-stop-shop for in-depth information about the technological activities taking place throughout Nepal.
 - [TechPana](https://www.techpana.com/) - TechPana is a media firm that seeks to increase Nepalis' familiarity with technology while addressing a wide range of global tech-related issues.
 
 ## Education
