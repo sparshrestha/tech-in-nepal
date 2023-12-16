@@ -45,7 +45,8 @@
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
 - [Skein Softwares](https://skeinsoft.com/)
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
-- [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
+- [Yarsa Labs](https://yarsa.io/) - Yarsa Labs is a product company with core focus on mobile apps and game development. We are among the top 1% publishers of mobile applications.
+- [Yarsa Tech](https://www.yarsa.tech/) - Yarsa Tech is building awesome consumer products in Pokhara
 - [YoungInnovations Pvt. Ltd.](https://younginnovations.com.np/) - YoungInnovations is a technology company that creates innovative and powerful solutions to global development problems.
 
 
