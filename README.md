@@ -46,6 +46,7 @@
 - [Skein Softwares](https://skeinsoft.com/)
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs
+- [YoungInnovations Pvt. Ltd.](https://younginnovations.com.np/) - YoungInnovations is a technology company that creates innovative and powerful solutions to global development problems.
 
 
 ## Organization
@@ -62,6 +63,7 @@
 
 
 ## Games Studios
+- [Bhoos Games](https://www.bhoos.com/) - Bhoos is a social gaming platform that brings people of all ages together through games.
 - [Sroth Code Games](https://www.facebook.com/srothcodegames/) - Sroth Code is a mobile game development company that draws inspiration from Nepal’s rich and varied culture and history.
 - [TeslaTech ](https://teslatech.com.np/) - Riding on the wave of success of the world leading online card game – Callbreak, Teslatech is at her core, a globally competitive tech company fueled by a fierce ambition and at a unique position to contribute to the advancement of technology and thus our society.
 - [Yarsa Games](https://yarsagames.com/) - Yarsa Games is our game development studio. We publish mobile games, some of which have reached 150M+ users.
