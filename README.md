@@ -1,5 +1,9 @@
-## Technology in Nepal
-### Curated list of startups, companies and models of entrepreneurship from Nepalese in Technology.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+
+## Awesome List of Tech in Nepal
+### Curated list of startups, companies and models of entrepreneurship in Nepal.
 #### It is a curation and not a collection. Listing is alphabetical in order.
 ##### `Please send a Pull Request to contribute in this public repo.`
 
