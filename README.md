@@ -123,7 +123,6 @@
 
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
-- [Shiraj Pradhanang](https://twitter.com/shirajpra) - Backend Web Developer
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
