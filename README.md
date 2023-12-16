@@ -16,10 +16,10 @@
 - [Vendor Marketplaces](#vendor-marketplaces)
 - [Online Services](#online-services)
 - [Mobile Apps](#mobile-apps)
-- [Tech Blogs](#tech-blogs)
+- [Tech News](#tech-news)
 - [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
-- [Tech Bloggers](#tech-bloggers)
+- [Tech Blogs](#tech-blogs)
 - [YouTube Channels](#youtube-channels)
 - [ISP Internet Service Providers](#isp-internet-service-providers)
 
@@ -108,12 +108,10 @@
 - [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
 - [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 
-
-## Tech Blogs
+## Tech News
 - [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
 - [TechGuff](https://techguff.com/) - Techguff is your technical news website.
-- [Yarsa Labs DevBlog](https://blog.yarsalabs.com/) - Technical stories and guides from Yarsa Labs.
-
+- [TechPana](https://www.techpana.com/) - TechPana is a media firm that seeks to increase Nepalis' familiarity with technology while addressing a wide range of global tech-related issues.
 
 ## Education
 - [Programiz](https://www.programiz.com/) - Learn to program with our beginner-friendly tutorials and examples. Read tutorials, try examples, write code and learn to program.
@@ -132,7 +130,7 @@
 - [Santosh Bhandari](https://twitter.com/mrcodedbrain) - Security Engineer by day, and redacted by night
 - [Saugat Acharya](https://twitter.com/acharya_saugat)
 
-## Tech Bloggers
+## Tech Blogs
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
 - [Geshan's Blog](https://geshan.com.np/) - Sr. Software Engineer | Agile follower | Speaker | Google Developer Expert
 - [Verbose Tethics Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
