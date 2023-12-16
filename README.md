@@ -30,11 +30,11 @@
 - [Bottle Technology](https://bottle.com.np/) - A fintech company mostly specializing in the space of Artificial Intelligence, Behavioral Economics and Internet of Things.
 - [Braindigit](https://braindigit.com/) - We develop cloud solutions for small and medium sized company to take their business online to compete in global marketplace.
 - [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
+- [Cotiviti Nepal](https://www.cotiviti.com.np/) -  Cotiviti Nepal Pvt. Ltd.
 - [deerwalk](https://www.deerwalk.com/) - Peak Performing Health Analytics Solutions Built on a Foundation of Data Integrity
 - [ESRTech](https://esrtech.io/) - Technology Based Solutions
 - [Evolve](https://www.evolveasia.co/) - We are a tech startup looking to disrupt the USD 2 Billion FMCG industry in Nepal and then beyond.
 - [F1Soft](https://f1soft.com/) - Our solutions connect people to financial services in simple, secure and affordable ways.
-- [CodeSastra](https://codesastra.com/) - CodeSastra Software
 - [Fusemachines Inc.](https://www.fusemachines.com/) - Fusemachines is positioned to disrupt the business landscape through our AI Talent Solutions
 - [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
 - [Genese Cloud Academy](https://www.genesecloud.academy/) - Introduce, train, and upskill students in Cloud Computing ecosystem
@@ -64,7 +64,7 @@
 ## Games Studios
 - [Sroth Code Games](https://www.facebook.com/srothcodegames/) - Sroth Code is a mobile game development company that draws inspiration from Nepal’s rich and varied culture and history.
 - [TeslaTech ](https://teslatech.com.np/) - Riding on the wave of success of the world leading online card game – Callbreak, Teslatech is at her core, a globally competitive tech company fueled by a fierce ambition and at a unique position to contribute to the advancement of technology and thus our society.
-- [Yarsa Games](https://yarsagames.com/)
+- [Yarsa Games](https://yarsagames.com/) - Yarsa Games is our game development studio. We publish mobile games, some of which have reached 150M+ users.
 
 
 ## Ecommerce
@@ -127,6 +127,7 @@
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
 - [Santosh Bhandari](https://twitter.com/mrcodedbrain) - Security Engineer by day, and redacted by night
+- [Saugat Acharya](https://twitter.com/acharya_saugat)
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
