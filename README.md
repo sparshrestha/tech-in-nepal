@@ -109,7 +109,7 @@
 - [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 
 ## Tech News
-- [GadgetByte](https://www.gadgetbytenepal.com/) - GadgetByte Nepal
+- [GadgetByte](https://www.gadgetbytenepal.com/) - Gadgetbyte Nepal is a tech news site providing technology News, reviews, price & more about Smartphone, Laptop, Tablets, Drones, Camera & Apps in Nepal.
 - [TechLekh](https://techlekh.com/) - TechLekh is Nepal’s leading digital tech media company, dedicated to representing the latest ideas and innovations entering the Nepali market. Our goal is to provide a one-stop-shop for in-depth information about the technological activities taking place throughout Nepal.
 - [TechPana](https://www.techpana.com/) - TechPana is a media firm that seeks to increase Nepalis' familiarity with technology while addressing a wide range of global tech-related issues.
 
