@@ -123,6 +123,7 @@
 
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
+- [Santosh Bhandari](https://twitter.com/mrcodedbrain) - Security Engineer by day, and redacted by night
 
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
