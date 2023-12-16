@@ -127,7 +127,7 @@
 ## Tech Bloggers
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
 - [Geshan's Blog](https://geshan.com.np/) - Sr. Software Engineer | Agile follower | Speaker | Google Developer Expert
-- [Verbose Tethics - Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
+- [Verbose Tethics Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
 - [Yarsa Labs Devblog](https://blog.yarsalabs.com/) - Technical Writings on Game Design, Software Engineering, Security & Operations
 
