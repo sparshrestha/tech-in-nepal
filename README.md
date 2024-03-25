@@ -12,8 +12,7 @@
 - [Organization](#organization)
 - [CyberSecurity Companies](#cybersecurity-companies)
 - [Games Studios](#games-studios)
-- [Ecommerce](#ecommerce)
-- [Vendor Marketplaces](#vendor-marketplaces)
+- [Ecommerce Marketplaces](#ecommerce-marketplaces)
 - [Online Services](#online-services)
 - [Mobile Apps](#mobile-apps)
 - [Tech News](#tech-news)
@@ -30,6 +29,7 @@
 - [Bottle Technology](https://bottle.com.np/) - A fintech company mostly specializing in the space of Artificial Intelligence, Behavioral Economics and Internet of Things.
 - [Braindigit](https://braindigit.com/) - We develop cloud solutions for small and medium sized company to take their business online to compete in global marketplace.
 - [cloudfactory](https://www.cloudfactory.com/) - Human-powered Data Processing for AI and Automation
+- [CloudTechService](https://cloudtechservice.com/) - CloudTech is a software development company, filled with high-level tech experts determined to create an impact in the digital world.
 - [Cotiviti Nepal](https://www.cotiviti.com.np/) -  Cotiviti Nepal Pvt. Ltd.
 - [deerwalk](https://www.deerwalk.com/) - Peak Performing Health Analytics Solutions Built on a Foundation of Data Integrity
 - [ESRTech](https://esrtech.io/) - Technology Based Solutions
@@ -45,6 +45,7 @@
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
 - [Skein Softwares](https://skeinsoft.com/)
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
+- [TechKraft Inc.](https://techkraftinc.com/) - TechKraft Inc. was established with the goal to realize Nepal’s potential as the next global hub of technology outsourcing. Our outstanding team leverages Nepal’s unique benefits as an emerging hub for tech talent to deliver quality IT services at a competitive price through state-of-the-art data security infrastructure.
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs is a product company with core focus on mobile apps and game development. We are among the top 1% publishers of mobile applications.
 - [Yarsa Tech](https://www.yarsa.tech/) - Yarsa Tech is building awesome consumer products in Pokhara
 - [YoungInnovations Pvt. Ltd.](https://younginnovations.com.np/) - YoungInnovations is a technology company that creates innovative and powerful solutions to global development problems.
@@ -52,6 +53,7 @@
 
 ## Organization
 - [Girls in Tech Nepal](https://nepal.girlsintech.org/) - Girls in Tech (GIT) is the largest women in tech organization in the world focused on the engagement, education, and empowerment of girls and women who are passionate about technology.
+- [NSTQB](https://nstqb.org/) - NSTQB Nepal Software Testing Qualifications Body is a national board for Nepal approved by International Software Testing Qualifications Board (ISTQB). NSTQB is a Not for Profit organization, responsible for the “ISTQB-Certified-Tester” certification programs in Nepal.
 
 
 ## CyberSecurity Companies
@@ -70,22 +72,20 @@
 - [Yarsa Games](https://yarsagames.com/) - Yarsa Games is our game development studio. We publish mobile games, some of which have reached 150M+ users.
 
 
-## Ecommerce
-- [hamrobazar](https://hamrobazar.com/) - HamroBazaar
-- [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
-- [UG Bazaar](https://www.ugbazaar.com/) - Send gifts to Nepal. Send cakes to Nepal. Online Shopping
-- [Yarsa Bazar](https://yarsabazar.com)
-
-
-## Vendor Marketplaces
+## Ecommerce Marketplaces
+- [basobaas](https://basobaas.com/) - Looking For A Property? Search your dream home on Nepal’s largest property marketplace
 - [daraz](https://daraz.com.np/) - Daraz Online Shopping
 - [Foodmario](http://foodmario.com/) - Foodmario is Nepal’s first and only platform that connects home chefs with customers all over Kathmandu Valley.
+- [hamrobazar](https://hamrobazar.com/) - HamroBazaar
 - [sastodeal](https://sastodeal.com/) - SastoDeal
-- [basobaas](https://basobaas.com/) - Looking For A Property? Search your dream home on Nepal’s largest property marketplace
+- [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
+- [UG Bazaar](https://www.ugbazaar.com/) - Send gifts to Nepal. Send cakes to Nepal. Online Shopping
+- [Yarsa Bazar](https://yarsabazar.com) - Yarsa Bazaar is an e-commerce marketplace for B2B sales. You can find vendors for everything - raw materials, service providers, manufacturers, distributors and dealers.
 
 
-## Online Services 
+## Online Services
 - [BooksMandala](https://www.booksmandala.com/) - Online BookShop
+- [Fonepay](https://www.fonepay.com/) - Fonepay is Nepal's first mobile payment network licensed by the Nepal’s central bank as a Payment System Operator (PSO). We are a company under F1Soft Group, a diversified Digital Financial Service (DFS) holding company.
 - [Kinumna](https://www.kinumna.com/) - Kinumna.com is a young and dynamic online shopping company in Nepal.
 - [Mentors Online Education](https://mentors.com.np/) - education through digitalization
 - [Sparrow SMS](https://sparrowsms.com/) - Bulk SMS Service in Nepal
@@ -94,7 +94,7 @@
 ## Mobile Apps
 - [eSewa](https://play.google.com/store/apps/details?id=com.f1soft.esewa) - eSewa - Mobile Wallet (Nepal)
 - [Foodmandu](https://play.google.com/store/apps/details?id=com.app.foodmandu) - Foodmandu
-- HamroPatro.com - [Android](https://play.google.com/store/apps/details?id=com.hamropatro) [iOS](https://apps.apple.com/np/app/hamro-patro-nepali-calendar/id401074157)
+- [HamroPatro.com](https://play.google.com/store/apps/details?id=com.hamropatro) - Want to know what's happening in Nepal? Stay connected to Nepal with Hamro Patro, providing you access to Nepali calendar, latest news, forex rate, radio stream
 - [IME Pay](https://play.google.com/store/apps/details?id=com.swifttechnology.imepay) - IME Pay - Mobile Digital Wallet (Nepal)
 - [Khalti](https://play.google.com/store/apps/details?id=com.khalti) - Khalti Digital Wallet (Nepal)
 - [Ludo](https://play.google.com/store/apps/details?id=io.yarsa.games.ludo) - Ludo Mobile Game with 10+ million downloads
