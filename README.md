@@ -118,7 +118,6 @@
  
 
 ## Facebook Pages Groups
-- [ByteBase](https://www.facebook.com/bytebase/) - ByteBase
 - [Entrepreneurs for Nepal](https://www.facebook.com/groups/e4nepal/) - Entrepreneurs for Nepal
 - [Facebook Developer Circle](https://www.facebook.com/groups/DevCKathmandu/) - Facebook Developer Circle: Kathmandu
 - [GadgetByte Nepal](https://www.facebook.com/gadgetbytenepal/) - GadgetByte Nepal
