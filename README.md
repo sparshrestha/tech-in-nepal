@@ -86,7 +86,7 @@
 ## Online Services
 - [BooksMandala](https://www.booksmandala.com/) - Online BookShop
 - [Fonepay](https://www.fonepay.com/) - Fonepay is Nepal's first mobile payment network licensed by the Nepal’s central bank as a Payment System Operator (PSO). We are a company under F1Soft Group, a diversified Digital Financial Service (DFS) holding company.
-- [https://gaaubesi.com/]() - GaauBesi Logistics Pvt. Ltd., incorporated in 2021, is a leading logistics solutions provider in Nepal with a focus on speed, safe and reliable nationwide express delivery services to online businesses. Gaaubesi is the first logistics that have a presence in all 77 districts and has 218+ service stations operating all over Nepal.
+- [Gaaubesi Logistics](https://gaaubesi.com/) - GaauBesi Logistics Pvt. Ltd., incorporated in 2021, is a leading logistics solutions provider in Nepal with a focus on speed, safe and reliable nationwide express delivery services to online businesses. Gaaubesi is the first logistics that have a presence in all 77 districts and has 218+ service stations operating all over Nepal.
 - [Kinumna](https://www.kinumna.com/) - Kinumna.com is a young and dynamic online shopping company in Nepal.
 - [Mentors Online Education](https://mentors.com.np/) - education through digitalization
 - [Sparrow SMS](https://sparrowsms.com/) - Bulk SMS Service in Nepal
