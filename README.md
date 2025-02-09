@@ -161,3 +161,6 @@
 - [Worldlink](https://worldlink.com.np/) - Worldlink
 - [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/sparshrestha/tech-in-nepal.svg?variant=adaptive)](https://starchart.cc/sparshrestha/tech-in-nepal)
