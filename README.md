@@ -77,6 +77,7 @@
 - [daraz](https://daraz.com.np/) - Daraz Online Shopping
 - [Foodmario](http://foodmario.com/) - Foodmario is Nepal’s first and only platform that connects home chefs with customers all over Kathmandu Valley.
 - [hamrobazar](https://hamrobazar.com/) - HamroBazaar
+- [Pasal Nepal](https://pasal.com/) - Pasal Nepal
 - [sastodeal](https://sastodeal.com/) - SastoDeal
 - [Thulo Supermarket](https://thulo.com/) - Thulo Supermarket
 - [UG Bazaar](https://www.ugbazaar.com/) - Send gifts to Nepal. Send cakes to Nepal. Online Shopping
