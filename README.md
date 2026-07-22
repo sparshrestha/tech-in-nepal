@@ -1,11 +1,14 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-## Awesome List of Tech in Nepal
-### Curated list of startups, companies and models of entrepreneurship in Nepal.
-#### It is a curation and not a collection. Listing is alphabetical in order.
-##### `Please send a Pull Request to contribute in this public repo.`
+# Awesome List of Tech in Nepal
+
+A curated list of startups, companies, products, communities and models of entrepreneurship connected to Nepal's technology ecosystem.
+
+**[Browse the searchable web catalog](https://tech-in-nepal.sparsh.dev/)**
+
+This is a curation, not an exhaustive collection. Listings are community-maintained and do not constitute an endorsement.
+
+Please send a pull request to add or improve a listing. Keep entries in the format `- [Name](https://example.com) - Short, neutral description.`
 
 ## Table of index
 - [Software Companies](#software-companies)
@@ -16,6 +19,7 @@
 - [Online Services](#online-services)
 - [Mobile Apps](#mobile-apps)
 - [Tech News](#tech-news)
+- [Education](#education)
 - [Facebook Pages Groups](#facebook-pages-groups)
 - [Twitter Handles](#twitter-handles)
 - [Tech Blogs](#tech-blogs)
@@ -44,7 +48,7 @@
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
-- [Skein Softwares](https://skeinsoft.com/)
+- [Skein Softwares](https://skeinsoft.com/) - Software development and technology services company.
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
 - [TechKraft Inc.](https://techkraftinc.com/) - TechKraft Inc. was established with the goal to realize Nepal’s potential as the next global hub of technology outsourcing. Our outstanding team leverages Nepal’s unique benefits as an emerging hub for tech talent to deliver quality IT services at a competitive price through state-of-the-art data security infrastructure.
 - [Yarsa Labs](https://yarsa.io/) - Yarsa Labs is a product company with core focus on mobile apps and game development. We are among the top 1% publishers of mobile applications.
@@ -130,7 +134,7 @@
 ## Twitter Handles
 - [Ekendra Lamsal](https://twitter.com/Ekendra) - Development Pro. ICT Engineer. eGov + ICT4D + MIS Specialist
 - [Santosh Bhandari](https://twitter.com/mrcodedbrain) - Security Engineer by day, and redacted by night
-- [Saugat Acharya](https://twitter.com/acharya_saugat)
+- [Saugat Acharya](https://twitter.com/acharya_saugat) - Technology professional sharing updates and perspectives on Twitter.
 
 ## Tech Blogs
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.

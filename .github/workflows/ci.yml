@@ -1,0 +1,35 @@
+name: Catalog CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - site-v1
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate and build catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 22
+
+      - name: Run parser tests
+        run: npm test
+
+      - name: Validate README catalog
+        run: npm run validate
+
+      - name: Build static site
+        run: npm run build
+
