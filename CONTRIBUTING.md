@@ -33,7 +33,6 @@ Before submitting, confirm that:
 - The URL is public, working and points to the primary source where possible.
 - The same URL is not already listed.
 - The description is concise, factual and written in neutral language.
-- You disclose any employment, ownership or other material relationship to the listing.
 
 ## Keep changes reviewable
 
