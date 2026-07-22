@@ -6,6 +6,7 @@ import {
   slugify,
   validateCatalog
 } from "../scripts/catalog.mjs";
+import { renderCard } from "../scripts/render-card.mjs";
 
 const validReadme = `
 ## Awesome List of Tech in Nepal
@@ -40,6 +41,27 @@ test("ignores presentation sections after the catalog", () => {
 
     assert.deepEqual(catalog.categories.map(({ name }) => name), ["Software Companies", "Education"]);
     assert.deepEqual(validateCatalog(catalog), []);
+  }
+});
+
+test("renders item URLs as safe new-tab links", () => {
+  const html = renderCard(
+    {
+      name: "Example Labs",
+      url: "https://example.com/",
+      description: "Builds useful software.",
+      category: "Software Companies",
+      domain: "example.com"
+    },
+    0
+  );
+  const links = html.match(/<a\b[^>]*>/g) ?? [];
+
+  assert.equal(links.length, 2);
+  for (const link of links) {
+    assert.match(link, /href="https:\/\/example\.com\/"/);
+    assert.match(link, /target="_blank"/);
+    assert.match(link, /rel="noopener noreferrer"/);
   }
 });
 

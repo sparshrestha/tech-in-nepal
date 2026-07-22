@@ -15,6 +15,7 @@
   --shell: 1200px;
   --radius: 10px;
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-size-min: max(0.875rem, 14px);
 }
 
 :root[data-theme="dark"] {
@@ -243,7 +244,7 @@ svg {
   border-radius: 6px;
   background: color-mix(in srgb, var(--surface) 88%, transparent);
   color: var(--ink-soft);
-  font-size: 0.68rem;
+  font-size: var(--font-size-min);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -368,13 +369,13 @@ svg {
   border-radius: 6px;
   background: var(--paper-deep);
   color: var(--ink-soft);
-  font: 700 0.75rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  font: 700 var(--font-size-min)/1 ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 .search-status {
   margin: 8px 0 0;
   color: var(--ink-soft);
-  font-size: 0.78rem;
+  font-size: var(--font-size-min);
   font-weight: 500;
 }
 
@@ -400,7 +401,7 @@ svg {
   border-radius: 6px;
   background: var(--paper-deep);
   color: var(--ink-soft);
-  font-size: 0.78rem;
+  font-size: var(--font-size-min);
   font-weight: 600;
   text-decoration: none;
 }
@@ -413,7 +414,7 @@ svg {
 .hero__disclaimer {
   margin: -2px 0 0;
   color: var(--ink-soft);
-  font-size: 0.76rem;
+  font-size: var(--font-size-min);
 }
 
 .directory {
@@ -456,7 +457,7 @@ svg {
   display: inline-block;
   margin-right: 4px;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.8em;
+  font-size: max(0.8em, var(--font-size-min));
 }
 
 .section-heading__count {
@@ -468,7 +469,7 @@ svg {
   border-radius: 999px;
   background: var(--paper-deep);
   color: var(--ink-soft);
-  font-size: 0.72rem;
+  font-size: var(--font-size-min);
   font-weight: 700;
 }
 
@@ -536,7 +537,7 @@ svg {
   margin: 0;
   overflow: hidden;
   color: var(--ink-soft);
-  font-size: 0.86rem;
+  font-size: var(--font-size-min);
   line-height: 1.55;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -550,7 +551,7 @@ svg {
   margin-top: auto;
   padding-top: 17px;
   color: var(--ink-soft);
-  font-size: 0.72rem;
+  font-size: var(--font-size-min);
 }
 
 .listing-card__meta svg {
@@ -564,10 +565,17 @@ svg {
   stroke-width: 1.25;
 }
 
-.listing-card__meta span {
+.listing-card__meta a {
   overflow: hidden;
+  color: inherit;
+  text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.listing-card__meta a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 .show-more {
@@ -619,7 +627,7 @@ svg {
 .empty-state__label {
   margin: 0 0 10px;
   color: var(--accent);
-  font-size: 0.74rem;
+  font-size: var(--font-size-min);
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -653,7 +661,7 @@ svg {
 .section-heading__eyebrow {
   margin: 0 0 10px;
   color: var(--ink-soft);
-  font-size: 0.72rem;
+  font-size: var(--font-size-min);
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -676,7 +684,7 @@ svg {
   border-radius: var(--radius);
   background: var(--ink);
   color: var(--paper);
-  font-size: 0.82rem;
+  font-size: var(--font-size-min);
   font-weight: 750;
   text-decoration: none;
 }
@@ -713,7 +721,7 @@ svg {
   max-width: 560px;
   margin: 17px 0 0;
   color: var(--ink-soft);
-  font-size: 0.78rem;
+  font-size: var(--font-size-min);
 }
 
 .site-footer__links {
@@ -723,7 +731,7 @@ svg {
 
 .site-footer__links a {
   color: var(--ink);
-  font-size: 0.76rem;
+  font-size: var(--font-size-min);
   font-weight: 650;
   text-decoration: none;
 }
@@ -738,7 +746,7 @@ svg {
   padding-top: 26px;
   border-top: 1px solid var(--line);
   color: var(--ink-soft);
-  font-size: 0.69rem;
+  font-size: var(--font-size-min);
 }
 
 @media (max-width: 980px) {

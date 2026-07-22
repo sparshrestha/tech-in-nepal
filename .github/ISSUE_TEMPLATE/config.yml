@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md
+    about: Learn how to edit the catalog and open a pull request.
+  - name: Browse the directory
+    url: https://tech-in-nepal.sparsh.dev/
+    about: Search the current published catalog before proposing a duplicate.
