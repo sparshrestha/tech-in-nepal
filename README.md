@@ -166,5 +166,11 @@
 - [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
 
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/sparshrestha/tech-in-nepal.svg?variant=adaptive)](https://starchart.cc/sparshrestha/tech-in-nepal)
+## StarMapper
+<a href="https://starmapper.bruniaux.com/sparshrestha/tech-in-nepal">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://starmapper.bruniaux.com/api/map-image/sparshrestha/tech-in-nepal?theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://starmapper.bruniaux.com/api/map-image/sparshrestha/tech-in-nepal?theme=light" />
+    <img alt="StarMapper" src="https://starmapper.bruniaux.com/api/map-image/sparshrestha/tech-in-nepal" />
+  </picture>
+</a>
