@@ -1,0 +1,16 @@
+{
+  "name": "tech-in-nepal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "README-driven static catalog for Nepal's technology ecosystem.",
+  "scripts": {
+    "validate": "node scripts/validate-catalog.mjs",
+    "test": "node --test",
+    "build": "node scripts/build-site.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+
