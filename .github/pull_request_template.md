@@ -1,6 +1,6 @@
 ## What changed?
 
-<!-- Briefly explain the listing or governance change and why it belongs in Tech in Nepal. -->
+<!-- Briefly explain the listing or contribution change and why it belongs in Tech in Nepal. -->
 
 ## Change type
 
@@ -11,7 +11,7 @@
 
 ## Submission checklist
 
-- [ ] I read the [contribution guide](https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md) and [governance criteria](https://github.com/sparshrestha/tech-in-nepal/blob/main/GOVERNANCE.md).
+- [ ] I read the [contribution guide](https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md).
 - [ ] Each listing has a clear connection to Nepal's technology ecosystem.
 - [ ] URLs are public, working, primary sources where possible and not duplicates.
 - [ ] Descriptions are concise, factual and non-promotional.

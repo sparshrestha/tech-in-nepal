@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping maintain Tech in Nepal. Please read the [contribution guide](https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md) and [governance criteria](https://github.com/sparshrestha/tech-in-nepal/blob/main/GOVERNANCE.md) before submitting.
+        Thanks for helping maintain Tech in Nepal. Please read the [contribution guide](https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md) before submitting.
 
   - type: dropdown
     id: change-type
