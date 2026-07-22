@@ -33,6 +33,16 @@ test("parses README categories and listings", () => {
   assert.deepEqual(validateCatalog(catalog), []);
 });
 
+test("ignores presentation sections after the catalog", () => {
+  for (const heading of ["Stargazers over time", "StarMapper"]) {
+    const readme = validReadme.replace("## Stargazers over time", `## ${heading}`);
+    const catalog = parseCatalog(readme);
+
+    assert.deepEqual(catalog.categories.map(({ name }) => name), ["Software Companies", "Education"]);
+    assert.deepEqual(validateCatalog(catalog), []);
+  }
+});
+
 test("reports malformed listing rows instead of silently dropping them", () => {
   const malformed = validReadme.replace(
     "- [Example Labs](https://example.com/) - Builds useful software.",
@@ -68,4 +78,3 @@ test("normalizes slugs and friendly platform domains", () => {
     "Google Play"
   );
 });
-

@@ -4,8 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
-      - site-v1
+      - main
 
 permissions:
   contents: read
@@ -32,4 +31,3 @@ jobs:
 
       - name: Build static site
         run: npm run build
-

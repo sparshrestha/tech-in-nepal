@@ -4,6 +4,7 @@ const HEADING_PATTERN = /^##\s+(.+?)\s*$/;
 const TOC_ITEM_PATTERN = /^- \[([^\]]+)\]\(#([^)]+)\)\s*$/;
 const LISTING_PATTERN = /^- \[([^\]]+)\]\(([^)]+)\) - (.+?)\s*$/;
 const LISTING_LIKE_PATTERN = /^- \[[^\]]+\]\([^)]+\)/;
+const POST_CATALOG_HEADINGS = new Set(["Stargazers over time", "StarMapper"]);
 
 export function slugify(value) {
   return value
@@ -64,7 +65,7 @@ export function parseCatalog(markdown) {
         return;
       }
 
-      if (heading === "Stargazers over time") {
+      if (POST_CATALOG_HEADINGS.has(heading)) {
         state = "done";
         currentCategory = null;
         return;
@@ -195,4 +196,3 @@ export function validateCatalog(catalog) {
 export function catalogSummary(catalog) {
   return `${catalog.items.length} listings across ${catalog.categories.length} categories`;
 }
-

@@ -3,7 +3,7 @@ name: Deploy catalog to GitHub Pages
 on:
   push:
     branches:
-      - site-v1
+      - main
   workflow_dispatch:
 
 permissions:
