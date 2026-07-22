@@ -8,7 +8,14 @@ A curated list of startups, companies, products, communities and models of entre
 
 This is a curation, not an exhaustive collection. Listings are community-maintained and do not constitute an endorsement.
 
-Please send a pull request to add or improve a listing. Keep entries in the format `- [Name](https://example.com) - Short, neutral description.`
+## Contributing
+
+Use the [contribution guide](CONTRIBUTING.md) to add, update or remove a listing. You can either:
+
+- [Edit the README on GitHub](https://github.com/sparshrestha/tech-in-nepal/edit/main/README.md) and open a pull request; or
+- [Open a listing request](https://github.com/sparshrestha/tech-in-nepal/issues/new?template=listing.yml) if you are not comfortable editing the repository.
+
+Listings are reviewed against the public [governance and inclusion criteria](GOVERNANCE.md). Inclusion is not an endorsement.
 
 ## Table of index
 - [Software Companies](#software-companies)

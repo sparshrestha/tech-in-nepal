@@ -1,0 +1,89 @@
+name: Propose a listing change
+description: Suggest an addition, correction or removal without editing the repository.
+title: "[Listing]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping maintain Tech in Nepal. Please read the [contribution guide](https://github.com/sparshrestha/tech-in-nepal/blob/main/CONTRIBUTING.md) and [governance criteria](https://github.com/sparshrestha/tech-in-nepal/blob/main/GOVERNANCE.md) before submitting.
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Change type
+      options:
+        - Add a listing
+        - Update a listing
+        - Remove a listing
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Listing name
+      placeholder: Example Labs
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: Use a public, stable first-party URL where possible.
+      placeholder: https://example.com/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Software Companies
+        - Organization
+        - CyberSecurity Companies
+        - Games Studios
+        - Ecommerce Marketplaces
+        - Online Services
+        - Mobile Apps
+        - Tech News
+        - Education
+        - Facebook Pages Groups
+        - Twitter Handles
+        - Tech Blogs
+        - YouTube Channels
+        - ISP Internet Service Providers
+        - New category proposal
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Proposed description or reason
+      description: For additions and updates, use a short factual description. For removals, explain why.
+      placeholder: Builds tools for...
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: Disclose employment, ownership or another material relationship, or write "None".
+      placeholder: None
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that this URL is not already listed.
+          required: true
+        - label: The information is factual and non-promotional.
+          required: true
+        - label: This proposal has a clear connection to Nepal's technology ecosystem.
+          required: true
