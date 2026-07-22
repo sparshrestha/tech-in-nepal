@@ -16,7 +16,7 @@
     } catch {
       // Theme switching still works when browser storage is unavailable.
     }
-    themeColor?.setAttribute("content", theme === "dark" ? "#171614" : "#f7f4ed");
+    themeColor?.setAttribute("content", theme === "dark" ? "#0f0f0f" : "#ffffff");
     themeToggle?.setAttribute(
       "aria-label",
       theme === "dark" ? "Switch to light theme" : "Switch to dark theme"
@@ -86,7 +86,7 @@
       const expanded = button.getAttribute("aria-expanded") === "true";
       button.setAttribute("aria-expanded", String(!expanded));
       section.classList.toggle("is-expanded", !expanded);
-      button.querySelector("span").textContent = expanded ? `Show all ${count}` : "Show fewer";
+      button.querySelector("span").textContent = expanded ? `Show all ${count} items` : "Show less";
     });
   });
 })();

@@ -4,7 +4,7 @@
 
 A curated list of startups, companies, products, communities and models of entrepreneurship connected to Nepal's technology ecosystem.
 
-**[Browse the searchable web catalog](https://sparshrestha.github.io/tech-in-nepal/)**
+**[Browse the searchable web catalog](https://sparsh.dev/tech-in-nepal/)**
 
 This is a curation, not an exhaustive collection. Listings are community-maintained and do not constitute an endorsement.
 

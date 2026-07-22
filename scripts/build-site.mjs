@@ -36,36 +36,87 @@ function renderCategoryNav(categories) {
         <li>
           <a class="category-chip" href="#${escapeHtml(category.id)}">
             <span>${escapeHtml(category.name)}</span>
-            <span class="category-chip__count">${category.items.length}</span>
           </a>
         </li>`
     )
     .join("");
 }
 
+const categoryMeta = {
+  "Software Companies": {
+    icon: "💻",
+    description: "Companies building software products, platforms and digital services in Nepal."
+  },
+  Organization: {
+    icon: "🤝",
+    description: "Organizations supporting founders, developers and Nepal's wider technology community."
+  },
+  "CyberSecurity Companies": {
+    icon: "🛡️",
+    description: "Teams focused on security engineering, research, consulting and digital resilience."
+  },
+  "Games Studios": {
+    icon: "🎮",
+    description: "Studios creating games and interactive entertainment from Nepal."
+  },
+  "Ecommerce Marketplaces": {
+    icon: "🛒",
+    description: "Marketplaces connecting customers, merchants and services online."
+  },
+  "Online Services": {
+    icon: "🌐",
+    description: "Digital services used by people and businesses across Nepal."
+  },
+  "Mobile Apps": {
+    icon: "📱",
+    description: "Mobile products built for Nepal or by teams connected to Nepal."
+  },
+  "Tech News": {
+    icon: "📰",
+    description: "Publications covering technology, products and the local digital economy."
+  },
+  Education: {
+    icon: "🎓",
+    description: "Learning platforms and resources for technology education."
+  },
+  "Facebook Pages Groups": {
+    icon: "👥",
+    description: "Facebook communities where Nepal's technology ecosystem gathers and shares."
+  },
+  "Twitter Handles": {
+    icon: "💬",
+    description: "People sharing useful technology perspectives and updates."
+  },
+  "Tech Blogs": {
+    icon: "✍️",
+    description: "Independent writing on engineering, products and technology."
+  },
+  "YouTube Channels": {
+    icon: "▶️",
+    description: "Video creators covering technology, products and entrepreneurship."
+  },
+  "ISP Internet Service Providers": {
+    icon: "📡",
+    description: "Internet service providers connecting homes and businesses across Nepal."
+  }
+};
+
 function renderCard(item, index) {
   const searchText = [item.name, item.description, item.category, item.domain]
     .join(" ")
     .toLowerCase();
-  const hiddenClass = index >= 8 ? " is-initially-hidden" : "";
-  const monogram = item.name.match(/[A-Za-z0-9]/)?.[0]?.toUpperCase() ?? "•";
+  const hiddenClass = index >= 9 ? " is-initially-hidden" : "";
 
   return `
     <article class="listing-card${hiddenClass}" data-card data-search="${escapeHtml(searchText)}">
-      <div class="listing-card__topline">
-        <span class="listing-card__monogram" aria-hidden="true">${escapeHtml(monogram)}</span>
-        <span class="listing-card__domain">${escapeHtml(item.domain)}</span>
+      <h3 class="listing-card__title">
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)}</a>
+      </h3>
+      <p class="listing-card__description">${escapeHtml(item.description)}</p>
+      <div class="listing-card__meta">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" /><path d="M2 8h12M8 2c2 2 2 10 0 12M8 2c-2 2-2 10 0 12" /></svg>
+        <span>${escapeHtml(item.domain)}</span>
       </div>
-      <div class="listing-card__content">
-        <h3 class="listing-card__title">${escapeHtml(item.name)}</h3>
-        <p class="listing-card__description">${escapeHtml(item.description)}</p>
-      </div>
-      <a class="listing-card__link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-        Visit official page
-        <svg viewBox="0 0 16 16" aria-hidden="true">
-          <path d="M5.25 3.5h7.25v7.25M12.25 3.75l-8.5 8.5" />
-        </svg>
-      </a>
     </article>`;
 }
 
@@ -73,11 +124,15 @@ function renderCategorySections(categories) {
   return categories
     .map((category) => {
       const cards = category.items.map(renderCard).join("");
+      const meta = categoryMeta[category.name] ?? {
+        icon: "◆",
+        description: "Community-curated projects and resources connected to Nepal."
+      };
       const showMore =
-        category.items.length > 8
+        category.items.length > 9
           ? `
             <button class="show-more" type="button" data-show-more aria-expanded="false">
-              <span>Show all ${category.items.length}</span>
+              <span>Show all ${category.items.length} items</span>
               <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3.5 6 4.5 4 4.5-4" /></svg>
             </button>`
           : "";
@@ -85,14 +140,10 @@ function renderCategorySections(categories) {
       return `
         <section class="catalog-section" id="${escapeHtml(category.id)}" data-section>
           <div class="section-heading">
-            <div>
-              <p class="section-heading__eyebrow">Directory category</p>
-              <h2>${escapeHtml(category.name)}</h2>
-            </div>
-            <span class="section-heading__count">${category.items.length} ${
-              category.items.length === 1 ? "listing" : "listings"
-            }</span>
+            <h2><span aria-hidden="true">${meta.icon}</span> ${escapeHtml(category.name)}</h2>
+            <span class="section-heading__count">${category.items.length}</span>
           </div>
+          <p class="catalog-section__description">${escapeHtml(meta.description)}</p>
           <div class="catalog-grid" data-grid>
             ${cards}
           </div>
@@ -205,4 +256,3 @@ await Promise.all([
 ]);
 
 console.log(`Built _site: ${catalogSummary(catalog)}.`);
-

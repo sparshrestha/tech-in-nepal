@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{SITE_TITLE}} — Nepal's technology ecosystem</title>
     <meta name="description" content="{{DESCRIPTION}}" />
-    <meta name="theme-color" content="#f7f4ed" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="canonical" href="{{CANONICAL_URL}}" />
     <link rel="icon" href="{{ASSET_BASE}}/assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="{{ASSET_BASE}}/assets/style.css" />
+    <link rel="stylesheet" href="{{ASSET_BASE}}/assets/catalog.css" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{SITE_TITLE}} — Nepal's technology ecosystem" />
     <meta property="og:description" content="{{DESCRIPTION}}" />
@@ -41,8 +41,10 @@
           <span>Tech in Nepal</span>
         </a>
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#catalog">Browse</a>
-          <a href="{{REPOSITORY_URL}}" target="_blank" rel="noopener noreferrer">Contribute</a>
+          <a href="{{REPOSITORY_URL}}#readme" target="_blank" rel="noopener noreferrer">README</a>
+          <a class="github-link" href="{{REPOSITORY_URL}}" target="_blank" rel="noopener noreferrer" aria-label="Tech in Nepal on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.88c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.52a9.6 9.6 0 0 1 2.5.34c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" /></svg>
+          </a>
           <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">
             <svg class="theme-toggle__sun" viewBox="0 0 20 20" aria-hidden="true">
               <circle cx="10" cy="10" r="3" /><path d="M10 1v2M10 17v2M1 10h2M17 10h2M3.6 3.6 5 5M15 15l1.4 1.4M16.4 3.6 15 5M5 15l-1.4 1.4" />
@@ -56,21 +58,10 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="catalog">
         <div class="shell hero__layout">
-          <div class="hero__copy">
-            <p class="hero__eyebrow"><span></span> Community-curated since 2020</p>
-            <h1>Discover Nepal's<br /><em>technology ecosystem.</em></h1>
-            <p class="hero__lede">
-              Explore companies, products, communities, media and resources built in or connected to Nepal.
-            </p>
-            <div class="hero__stats" aria-label="Directory statistics">
-              <div><strong>{{TOTAL_LISTINGS}}</strong><span>curated listings</span></div>
-              <div><strong>{{TOTAL_CATEGORIES}}</strong><span>categories</span></div>
-              <div><strong>Open</strong><span>community maintained</span></div>
-            </div>
-          </div>
-          <div class="hero__art" aria-hidden="true">
+          <div class="hero__visual" aria-hidden="true">
+            <p>Community-curated since 2020</p>
             <div class="hero__sun"></div>
             <svg viewBox="0 0 620 420" role="presentation">
               <path class="hero__mountain hero__mountain--back" d="M0 340 125 188l56 70L282 105l73 120 52-61L620 340Z" />
@@ -81,27 +72,33 @@
               <circle class="hero__node" cx="452" cy="180" r="7" />
             </svg>
           </div>
+          <div class="hero__content">
+            <h1>
+              Find what you're looking for through <strong>{{TOTAL_LISTINGS}} listings</strong> across
+              <strong>{{TOTAL_CATEGORIES}} categories</strong> in Nepal's technology ecosystem
+            </h1>
+
+            <div class="directory-tools">
+              <div class="search-field">
+                <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" /><path d="m13 13 4 4" /></svg>
+                <label class="visually-hidden" for="catalog-search">Search the directory</label>
+                <input id="catalog-search" type="search" placeholder="Search companies, products and resources…" autocomplete="off" data-search-input />
+                <kbd>/</kbd>
+              </div>
+              <p class="search-status" aria-live="polite" data-search-status>Showing all {{TOTAL_LISTINGS}} listings</p>
+            </div>
+
+            <nav class="category-nav" aria-label="Directory categories">
+              <ul>{{CATEGORY_NAV}}</ul>
+            </nav>
+
+            <p class="hero__disclaimer">Community-maintained directory · Verify services independently</p>
+          </div>
         </div>
       </section>
 
-      <section class="directory" id="catalog">
+      <section class="directory">
         <div class="shell">
-          <div class="directory-tools">
-            <div class="search-field">
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" /><path d="m13 13 4 4" /></svg>
-              <label class="visually-hidden" for="catalog-search">Search the directory</label>
-              <input id="catalog-search" type="search" placeholder="Search names, categories or descriptions…" autocomplete="off" data-search-input />
-              <kbd>/</kbd>
-            </div>
-            <p class="search-status" aria-live="polite" data-search-status>Showing all {{TOTAL_LISTINGS}} listings</p>
-          </div>
-
-          <nav class="category-nav" aria-label="Directory categories">
-            <ul>{{CATEGORY_NAV}}</ul>
-          </nav>
-
-          <p class="directory-note">Community-maintained directory · Listings are not endorsements · Verify services independently</p>
-
           <div class="catalog-sections">
             {{CATEGORY_SECTIONS}}
           </div>
