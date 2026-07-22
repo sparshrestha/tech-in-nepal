@@ -1,8 +1,8 @@
 {
   "title": "Tech in Nepal",
   "description": "A community-curated directory of companies, products, communities, media and technology resources connected to Nepal.",
-  "url": "https://sparsh.dev",
-  "basePath": "/tech-in-nepal",
+  "url": "https://tech-in-nepal.sparsh.dev",
+  "basePath": "",
   "repositoryUrl": "https://github.com/sparshrestha/tech-in-nepal",
   "author": "Tech in Nepal contributors"
 }
