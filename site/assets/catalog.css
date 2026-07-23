@@ -727,6 +727,16 @@ svg {
   font-size: var(--font-size-min);
 }
 
+.site-footer__inner > div:first-child > p a {
+  color: inherit;
+  font-weight: 650;
+  text-underline-offset: 3px;
+}
+
+.site-footer__inner > div:first-child > p a:hover {
+  color: var(--accent);
+}
+
 .site-footer__links {
   display: grid;
   gap: 9px;
