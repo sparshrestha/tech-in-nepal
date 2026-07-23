@@ -308,7 +308,7 @@ svg {
 .hero h1 {
   margin: 0;
   color: var(--ink-soft);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-sans);
   font-size: clamp(1.5rem, 2.15vw, 1.8rem);
   font-weight: 400;
   letter-spacing: -0.015em;
@@ -369,7 +369,10 @@ svg {
   border-radius: 6px;
   background: var(--paper-deep);
   color: var(--ink-soft);
-  font: 700 var(--font-size-min)/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-min);
+  font-weight: 700;
+  line-height: 1;
 }
 
 .search-status {
@@ -446,7 +449,7 @@ svg {
 .empty-state h2 {
   margin: 0;
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-sans);
   font-size: clamp(1.8rem, 3vw, 2.25rem);
   font-weight: 600;
   letter-spacing: -0.025em;
@@ -456,7 +459,7 @@ svg {
 .section-heading h2 > span {
   display: inline-block;
   margin-right: 4px;
-  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: max(0.8em, var(--font-size-min));
 }
 
