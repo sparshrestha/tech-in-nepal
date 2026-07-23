@@ -171,14 +171,16 @@ svg {
 }
 
 .site-nav > .add-listing-link {
-  min-height: 36px;
+  height: 36px;
+  justify-content: center;
   padding-inline: 14px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 8px;
   background: var(--paper-deep);
   color: var(--ink);
   font-size: 1rem;
   font-weight: 650;
+  cursor: pointer;
   white-space: nowrap;
 }
 
@@ -818,10 +820,6 @@ svg {
 
   .site-nav {
     gap: 10px;
-  }
-
-  .site-nav > a:first-child {
-    display: none;
   }
 
   .site-nav > .github-link {
