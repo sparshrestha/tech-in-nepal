@@ -25,6 +25,7 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [Ecommerce Marketplaces](#ecommerce-marketplaces)
 - [Online Services](#online-services)
 - [Mobile Apps](#mobile-apps)
+- [News Apps](#news-apps)
 - [Tech News](#tech-news)
 - [Education](#education)
 - [Facebook Pages Groups](#facebook-pages-groups)
@@ -55,6 +56,7 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
 - [Moonlit Solutions](https://www.moonlit.solutions/) - Data Engineering, Data Analysis, Forecast Models, Data Visualization Dashboards, Survey and Market Research
 - [New IT Venture](https://www.newitventure.com/en/) - New it venture based in Kathmandu.
+- [Parewa Incorporated Pvt Ltd](https://www.parewainc.com/) - Software Development Agency, Over 8 Years of Experience with more than capable designers and engineers making meaningful digital experiences.
 - [Skein Softwares](https://skeinsoft.com/) - Software development and technology services company.
 - [Sursa Tech](https://www.sursatech.com/) - Sursa Tech - From the Base of Himalayas
 - [TechKraft Inc.](https://techkraftinc.com/) - TechKraft Inc. was established with the goal to realize Nepal’s potential as the next global hub of technology outsourcing. Our outstanding team leverages Nepal’s unique benefits as an emerging hub for tech talent to deliver quality IT services at a competitive price through state-of-the-art data security infrastructure.
@@ -122,6 +124,8 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
 - [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 
+## News Apps
+- [eparewa](https://www.eparewa.com/) - Nepal's Smartest News Platform, National News Aggregator Powered by AI. A product of Parewa Inc.
 ## Tech News
 - [GadgetByte](https://www.gadgetbytenepal.com/) - Gadgetbyte Nepal is a tech news site providing technology News, reviews, price & more about Smartphone, Laptop, Tablets, Drones, Camera & Apps in Nepal.
 - [TechLekh](https://techlekh.com/) - TechLekh is Nepal’s leading digital tech media company, dedicated to representing the latest ideas and innovations entering the Nepali market. Our goal is to provide a one-stop-shop for in-depth information about the technological activities taking place throughout Nepal.
