@@ -6,7 +6,7 @@ A curated list of startups, companies, products, communities and models of entre
 
 ## **[Browse the searchable web catalog](https://tech-in-nepal.sparsh.dev/)**
 
-This is a curation, not an exhaustive collection. Listings are community-maintained and do not constitute an endorsement.
+This is a curation, not an exhaustive collection. Listings are alphabetical in order, community-maintained and do not constitute an endorsement.
 
 ## Contributing
 
