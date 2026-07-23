@@ -170,6 +170,23 @@ svg {
   fill: currentColor;
 }
 
+.site-nav > .add-listing-link {
+  min-height: 36px;
+  padding-inline: 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper-deep);
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.site-nav > .add-listing-link:hover {
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+
 .theme-toggle {
   display: grid;
   width: 36px;
@@ -800,10 +817,14 @@ svg {
   }
 
   .site-nav {
-    gap: 14px;
+    gap: 10px;
   }
 
   .site-nav > a:first-child {
+    display: none;
+  }
+
+  .site-nav > .github-link {
     display: none;
   }
 
