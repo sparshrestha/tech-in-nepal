@@ -8,6 +8,10 @@ A curated list of startups, companies, products, communities and models of entre
 
 This is a curation, not an exhaustive collection. Listings are alphabetical in order, community-maintained and do not constitute an endorsement.
 
+<p align="center">
+  <img src="./site/assets/banner.png" alt="Tech in Nepal Banner" width="700">
+</p>
+
 ## Contributing
 
 Use the [contribution guide](CONTRIBUTING.md) to add, update or remove a listing. You can either:
