@@ -2,6 +2,8 @@
 
 # Awesome List of Tech in Nepal
 
+[![Tech in Nepal — A curated map of Nepal's technology ecosystem](.github/assets/tech-in-nepal-readme-hero.webp)](https://tech-in-nepal.sparsh.dev/)
+
 A curated list of startups, companies, products, communities and models of entrepreneurship connected to Nepal's technology ecosystem.
 
 ## **[Browse the searchable web catalog](https://tech-in-nepal.sparsh.dev/)**
