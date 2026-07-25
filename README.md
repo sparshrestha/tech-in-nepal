@@ -153,6 +153,7 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [Ekendra Lamsal](https://ekendraonline.com/) - Freshly published articles and reviews, and sometimes critics.
 - [EwanBlog](https://ewanblog.com/) - Well researched articles,insights,and perspectives on tech related topics to keep readers up to date with ideas,trends,and practical knowledge.
 - [Geshan's Blog](https://geshan.com.np/) - Sr. Software Engineer | Agile follower | Speaker | Google Developer Expert
+- [Nabin Khair](https://nabinkhair.com.np/blog) - Software engineering blog covering web development, TypeScript, Next.js, AI engineering, and related technical topics. Authored by a Nepal-based computer engineer.
 - [Verbose Tethics Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
 - [Yarsa Labs Devblog](https://blog.yarsalabs.com/) - Technical Writings on Game Design, Software Engineering, Security & Operations
