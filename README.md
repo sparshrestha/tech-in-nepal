@@ -192,3 +192,16 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
     <img alt="StarMapper" src="https://starmapper.bruniaux.com/api/map-image/sparshrestha/tech-in-nepal" />
   </picture>
 </a>
+
+## License
+
+Tech in Nepal uses separate licenses for software and content:
+
+* Software code is licensed under the [MIT License](LICENSES/MIT.txt).
+* All listings, descriptions and content are licensed under [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt).
+
+When reusing directory content, provide attribution to **Tech in Nepal and its contributors**, link to the original repository, identify the CC BY 4.0 license and indicate whether changes were made.
+
+Company names, logos, trademarks and third-party material remain the property of their respective owners.
+
+See [LICENSE](LICENSE)

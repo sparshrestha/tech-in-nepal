@@ -25,7 +25,7 @@ Use one Markdown line per listing:
 
 Descriptions should explain what the organization, product or resource does. Avoid slogans, unverifiable superlatives, keyword stuffing, calls to action and promotional pricing.
 
-## Inclusion checklist
+## Checklist
 
 Before submitting, confirm that:
 
@@ -55,3 +55,12 @@ CI runs the same catalog checks. A maintainer may edit a description for neutral
 ## Corrections and removals
 
 Use the same pull-request or listing-request process for a correction, rebrand, broken URL or removal. Include a short explanation and a reliable source when the reason is not visible from the linked page.
+
+## Contribution licensing
+
+By submitting a contribution to this repository, you agree that:
+
+* Source-code, test, configuration and automation contributions are licensed under the MIT License.
+* Listing, documentation, description and other editorial-content contributions are licensed under the Creative Commons Attribution 4.0 International License.
+
+You confirm that you created the submitted material or have the necessary rights to contribute it under the applicable license.
