@@ -437,7 +437,7 @@ svg {
   outline: 0;
   background: transparent;
   color: var(--ink);
-  font-size: 0.94rem;
+  font-size: 1rem;
 }
 
 .search-field input::placeholder {
