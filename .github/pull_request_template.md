@@ -15,9 +15,4 @@
 - [ ] Each listing has a clear connection to Nepal's technology ecosystem.
 - [ ] URLs are public, working, primary sources where possible and not duplicates.
 - [ ] Descriptions are concise, factual and non-promotional.
-- [ ] I disclosed any employment, ownership or other material relationship below.
 - [ ] I ran `npm test`, `npm run validate` and `npm run build`, or this change only affects documentation.
-
-## Disclosure
-
-<!-- State any relationship to the listing, or write "None". -->

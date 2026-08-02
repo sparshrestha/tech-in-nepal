@@ -827,7 +827,11 @@ svg {
   }
 
   .hero__layout {
-    padding-block: 22px 26px;
+    padding-block: 18px 20px;
+  }
+
+  .hero__content {
+    gap: 14px;
   }
 
   .hero__visual {
@@ -840,7 +844,26 @@ svg {
   }
 
   .category-nav {
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .category-nav ul {
+    flex-wrap: nowrap;
+    overflow-x: auto;
     padding: 10px;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline proximity;
+    scrollbar-width: none;
+  }
+
+  .category-nav ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-nav li {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
   }
 
   .category-chip {
@@ -875,6 +898,38 @@ svg {
 
   .site-footer__copyright {
     grid-column: 1;
+  }
+}
+
+@media (max-width: 420px) {
+  .search-field kbd {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .shell {
+    width: min(calc(100% - 24px), var(--shell));
+  }
+
+  .site-header__inner {
+    gap: 8px;
+  }
+
+  .brand {
+    gap: 0;
+  }
+
+  .brand > span {
+    display: none;
+  }
+
+  .site-nav {
+    gap: 8px;
+  }
+
+  .site-nav > .add-listing-link {
+    padding-inline: 10px;
   }
 }
 
