@@ -21,7 +21,7 @@ export function renderCategoryIcon(icon) {
   const paths = categoryIconPaths[icon];
   if (!paths) throw new Error(`Unknown category icon: ${icon}`);
 
-  return `<svg class="category-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${paths}</svg>`;
+  return `<svg class="category-icon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" aria-hidden="true" focusable="false">${paths}</svg>`;
 }
 
 export const categoryMeta = {

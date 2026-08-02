@@ -22,6 +22,17 @@ function joinUrl(origin, basePath, suffix = "") {
   return normalizedSuffix ? new URL(normalizedSuffix, rootUrl).toString() : rootUrl;
 }
 
+function assetRevision(source) {
+  let checksum = 0x811c9dc5;
+
+  for (let index = 0; index < source.length; index += 1) {
+    checksum ^= source.charCodeAt(index);
+    checksum = Math.imul(checksum, 0x01000193);
+  }
+
+  return `${source.length.toString(36)}-${(checksum >>> 0).toString(36)}`;
+}
+
 function renderCategoryNav(categories) {
   return [{ name: "All", id: "" }, ...categories]
     .map(
@@ -107,10 +118,12 @@ function replaceTokens(template, tokens) {
   );
 }
 
-const [readme, template, configSource] = await Promise.all([
+const [readme, template, configSource, stylesheetSource, clientScriptSource] = await Promise.all([
   readFile(path.join(root, "README.md"), "utf8"),
   readFile(path.join(sourceDirectory, "index.html"), "utf8"),
-  readFile(path.join(root, "site.config.json"), "utf8")
+  readFile(path.join(root, "site.config.json"), "utf8"),
+  readFile(path.join(sourceDirectory, "assets/catalog.css"), "utf8"),
+  readFile(path.join(sourceDirectory, "assets/main.js"), "utf8")
 ]);
 
 const config = JSON.parse(configSource);
@@ -134,7 +147,9 @@ const renderedHtml = replaceTokens(template, {
   DESCRIPTION: escapeHtml(config.description),
   OG_IMAGE_URL: escapeHtml(socialImageUrl),
   REPOSITORY_URL: escapeHtml(config.repositoryUrl),
+  SCRIPT_REVISION: assetRevision(clientScriptSource),
   SITE_TITLE: escapeHtml(config.title),
+  STYLESHEET_REVISION: assetRevision(stylesheetSource),
   STRUCTURED_DATA: renderStructuredData(catalog, config, canonicalUrl),
   TOTAL_CATEGORIES: catalog.categories.length,
   TOTAL_LISTINGS: catalog.items.length,
