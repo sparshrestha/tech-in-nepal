@@ -96,7 +96,10 @@
                 <input id="catalog-search" type="search" placeholder="Search companies, products and resources…" autocomplete="off" data-search-input />
                 <kbd>/</kbd>
               </div>
-              <p class="search-status" aria-live="polite" data-search-status>Showing all {{TOTAL_LISTINGS}} listings</p>
+              <div class="directory-tools__status">
+                <p class="search-status" aria-live="polite" data-search-status>Showing all {{TOTAL_LISTINGS}} listings</p>
+                <button class="clear-filters" type="button" data-clear-filters hidden>Clear filters</button>
+              </div>
             </div>
 
             <nav class="category-nav" aria-label="Directory categories">
@@ -117,7 +120,7 @@
           <div class="empty-state" data-empty-state hidden>
             <p class="empty-state__label">No matching listings</p>
             <h2>Try a broader search.</h2>
-            <button type="button" data-clear-search>Clear search</button>
+            <button type="button" data-clear-search>Clear filters</button>
           </div>
         </div>
       </section>

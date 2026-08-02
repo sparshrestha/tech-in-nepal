@@ -6,8 +6,12 @@
   const searchStatus = document.querySelector("[data-search-status]");
   const emptyState = document.querySelector("[data-empty-state]");
   const clearSearch = document.querySelector("[data-clear-search]");
+  const clearFilters = document.querySelector("[data-clear-filters]");
   const cards = [...document.querySelectorAll("[data-card]")];
   const sections = [...document.querySelectorAll("[data-section]")];
+  const categoryFilters = [...document.querySelectorAll("[data-category-filter]")];
+  const validCategories = new Set(sections.map((section) => section.id));
+  let selectedCategory = "";
 
   function setTheme(theme) {
     root.dataset.theme = theme;
@@ -29,39 +33,139 @@
     setTheme(root.dataset.theme === "dark" ? "light" : "dark");
   });
 
-  function updateSearch() {
-    const query = searchInput.value.trim().toLowerCase();
-    let resultCount = 0;
+  function normalizeSearchText(value) {
+    return String(value)
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .trim();
+  }
 
-    for (const card of cards) {
-      const matches = !query || card.dataset.search.includes(query);
-      card.classList.toggle("is-searching", Boolean(query));
-      card.hidden = Boolean(query) && !matches;
-      if (matches) resultCount += 1;
-    }
+  const searchableCards = new Map(
+    cards.map((card) => [card, normalizeSearchText(card.dataset.search)])
+  );
+
+  function queryTokens(value) {
+    const normalized = normalizeSearchText(value);
+    return normalized ? normalized.split(/\s+/) : [];
+  }
+
+  function selectedCategoryName() {
+    if (!selectedCategory) return "";
+
+    return categoryFilters.find(
+      (filter) => filter.dataset.categoryFilter === selectedCategory
+    )?.dataset.categoryName;
+  }
+
+  function updateUrl(mode = "replace") {
+    const url = new URL(window.location.href);
+    const query = searchInput.value.trim();
+
+    if (query) url.searchParams.set("q", query);
+    else url.searchParams.delete("q");
+
+    if (selectedCategory) url.searchParams.set("category", selectedCategory);
+    else url.searchParams.delete("category");
+
+    url.hash = "";
+    window.history[`${mode}State`]({}, "", `${url.pathname}${url.search}`);
+  }
+
+  function updateCatalog() {
+    const query = searchInput.value.trim();
+    const tokens = queryTokens(query);
+    const isSearching = tokens.length > 0;
+    let resultCount = 0;
 
     for (const section of sections) {
       const sectionCards = [...section.querySelectorAll("[data-card]")];
-      const hasResults = sectionCards.some((card) => !card.hidden);
-      section.hidden = Boolean(query) && !hasResults;
+      const matchesCategory = !selectedCategory || section.id === selectedCategory;
+      let sectionResultCount = 0;
+
+      for (const card of sectionCards) {
+        const searchText = searchableCards.get(card);
+        const matchesSearch = !isSearching || tokens.every((token) => searchText.includes(token));
+        const matches = matchesCategory && matchesSearch;
+
+        card.classList.toggle("is-searching", isSearching);
+        card.hidden = !matches;
+        if (matches) sectionResultCount += 1;
+      }
+
+      resultCount += sectionResultCount;
+      section.hidden = !matchesCategory || (isSearching && sectionResultCount === 0);
 
       const showMore = section.querySelector("[data-show-more]");
-      if (showMore) showMore.hidden = Boolean(query);
+      if (showMore) showMore.hidden = isSearching;
     }
 
+    for (const filter of categoryFilters) {
+      const active = filter.dataset.categoryFilter === selectedCategory;
+      filter.classList.toggle("is-active", active);
+      if (active) filter.setAttribute("aria-current", "true");
+      else filter.removeAttribute("aria-current");
+    }
+
+    const categoryName = selectedCategoryName();
+    const listingLabel = resultCount === 1 ? "listing" : "listings";
+    const resultLabel = resultCount === 1 ? "result" : "results";
+
     emptyState.hidden = resultCount !== 0;
-    searchStatus.textContent = query
-      ? `${resultCount} matching ${resultCount === 1 ? "listing" : "listings"}`
-      : `Showing all ${cards.length} listings`;
+    clearFilters.hidden = !query && !selectedCategory;
+    root.classList.toggle("has-search-query", isSearching);
+
+    if (query && categoryName) {
+      searchStatus.textContent = `${resultCount} ${resultLabel} for “${query}” in ${categoryName}`;
+    } else if (query) {
+      searchStatus.textContent = `${resultCount} ${resultLabel} for “${query}”`;
+    } else if (categoryName) {
+      searchStatus.textContent = `${resultCount} ${listingLabel} in ${categoryName}`;
+    } else {
+      searchStatus.textContent = `Showing all ${cards.length} listings`;
+    }
   }
 
-  searchInput?.addEventListener("input", updateSearch);
+  function readUrlState() {
+    const url = new URL(window.location.href);
+    const category = url.searchParams.get("category") ?? "";
+
+    searchInput.value = url.searchParams.get("q") ?? "";
+    selectedCategory = validCategories.has(category) ? category : "";
+    updateCatalog();
+  }
+
+  function clearAllFilters(mode = "push") {
+    searchInput.value = "";
+    selectedCategory = "";
+    updateCatalog();
+    updateUrl(mode);
+    searchInput.focus();
+  }
+
+  searchInput?.addEventListener("input", () => {
+    updateCatalog();
+    updateUrl("replace");
+  });
+
+  categoryFilters.forEach((filter) => {
+    filter.addEventListener("click", (event) => {
+      event.preventDefault();
+      const category = filter.dataset.categoryFilter;
+      if (category === selectedCategory) return;
+
+      selectedCategory = category;
+      updateCatalog();
+      updateUrl("push");
+    });
+  });
 
   clearSearch?.addEventListener("click", () => {
-    searchInput.value = "";
-    updateSearch();
-    searchInput.focus();
+    clearAllFilters();
   });
+
+  clearFilters?.addEventListener("click", () => clearAllFilters());
 
   document.addEventListener("keydown", (event) => {
     const target = event.target;
@@ -74,9 +178,12 @@
 
     if (event.key === "Escape" && document.activeElement === searchInput && searchInput.value) {
       searchInput.value = "";
-      updateSearch();
+      updateCatalog();
+      updateUrl("replace");
     }
   });
+
+  window.addEventListener("popstate", readUrlState);
 
   document.querySelectorAll("[data-show-more]").forEach((button) => {
     const section = button.closest("[data-section]");
@@ -89,4 +196,6 @@
       button.querySelector("span").textContent = expanded ? `Show all ${count} items` : "Show less";
     });
   });
+
+  readUrlState();
 })();

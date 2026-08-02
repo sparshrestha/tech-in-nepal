@@ -395,10 +395,35 @@ svg {
 }
 
 .search-status {
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--ink-soft);
   font-size: var(--font-size-min);
   font-weight: 500;
+}
+
+.directory-tools__status {
+  display: flex;
+  min-height: 25px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.clear-filters {
+  flex: 0 0 auto;
+  padding: 2px 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font-size: var(--font-size-min);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clear-filters:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .category-nav {
@@ -431,6 +456,20 @@ svg {
 .category-chip:hover {
   background: var(--ink);
   color: var(--paper);
+}
+
+.category-chip.is-active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+:root.has-search-query .hero__layout {
+  grid-template-columns: 1fr;
+  padding-block: 20px;
+}
+
+:root.has-search-query .hero__visual {
+  display: none;
 }
 
 .hero__disclaimer {
