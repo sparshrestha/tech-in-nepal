@@ -592,11 +592,21 @@ svg {
   line-height: 1.2;
 }
 
-.section-heading h2 > span {
-  display: inline-block;
-  margin-right: 4px;
-  font-family: var(--font-sans);
-  font-size: max(0.8em, var(--font-size-min));
+.section-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-icon {
+  width: 0.9em;
+  height: 0.9em;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .section-heading__count {

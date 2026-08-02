@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { categoryMeta } from "../scripts/category-meta.mjs";
+import { categoryMeta, renderCategoryIcon } from "../scripts/category-meta.mjs";
 import { parseCatalog } from "../scripts/catalog.mjs";
 
 function issueFormCategories(source) {
@@ -38,6 +38,7 @@ test("category metadata and submission options match the README catalog", async 
 
   for (const [name, meta] of Object.entries(categoryMeta)) {
     assert.ok(meta.icon, `${name} must define an icon`);
+    assert.match(renderCategoryIcon(meta.icon), /^<svg class="category-icon"/);
     assert.ok(meta.description, `${name} must define a description`);
   }
 });
