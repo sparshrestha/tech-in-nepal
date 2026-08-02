@@ -5,6 +5,7 @@
   const githubLink = document.querySelector("[data-github-repository]");
   const githubStars = document.querySelector("[data-github-stars]");
   const githubStarCount = document.querySelector("[data-github-star-count]");
+  const backToTop = document.querySelector("[data-back-to-top]");
   const searchInput = document.querySelector("[data-search-input]");
   const searchStatus = document.querySelector("[data-search-status]");
   const emptyState = document.querySelector("[data-empty-state]");
@@ -114,6 +115,20 @@
   }
 
   void loadGithubStars();
+
+  function updateBackToTop() {
+    if (!backToTop) return;
+    const revealAfter = Math.min(600, window.innerHeight * 0.8);
+    backToTop.hidden = window.scrollY <= revealAfter;
+  }
+
+  window.addEventListener("scroll", updateBackToTop, { passive: true });
+  window.addEventListener("resize", updateBackToTop);
+  backToTop?.addEventListener("click", () => {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+  });
+  updateBackToTop();
 
   function normalizeSearchText(value) {
     return String(value)

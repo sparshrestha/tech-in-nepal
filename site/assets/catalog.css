@@ -195,6 +195,46 @@ svg {
   font-size: 0.82em;
 }
 
+.back-to-top {
+  position: fixed;
+  z-index: 45;
+  right: 22px;
+  bottom: calc(22px + env(safe-area-inset-bottom));
+  display: grid;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.back-to-top[hidden] {
+  display: none;
+}
+
+.back-to-top:hover {
+  border-color: var(--ink-soft);
+  background: var(--paper-deep);
+  transform: translateY(-2px);
+}
+
+.back-to-top svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
 .site-nav > .add-listing-link {
   height: 36px;
   justify-content: center;
@@ -901,6 +941,13 @@ svg {
 
   .site-nav > .github-link {
     display: none;
+  }
+
+  .back-to-top {
+    right: 15px;
+    bottom: calc(15px + env(safe-area-inset-bottom));
+    width: 42px;
+    height: 42px;
   }
 
   .hero__layout {
