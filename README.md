@@ -204,4 +204,4 @@ When reusing directory content, provide attribution to **Tech in Nepal and its c
 
 Company names, logos, trademarks and third-party material remain the property of their respective owners.
 
-See [LICENSE](LICENSE)
+See [LICENSE](LICENSE.md)

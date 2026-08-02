@@ -47,6 +47,7 @@ body:
         - Ecommerce Marketplaces
         - Online Services
         - Mobile Apps
+        - News Apps
         - Tech News
         - Education
         - Facebook Pages Groups
@@ -64,15 +65,6 @@ body:
       label: Proposed description or reason
       description: For additions and updates, use a short factual description. For removals, explain why.
       placeholder: Builds tools for...
-    validations:
-      required: true
-
-  - type: textarea
-    id: relationship
-    attributes:
-      label: Relationship disclosure
-      description: Disclose employment, ownership or another material relationship, or write "None".
-      placeholder: None
     validations:
       required: true
 
