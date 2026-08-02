@@ -5,6 +5,7 @@
   const searchInput = document.querySelector("[data-search-input]");
   const searchStatus = document.querySelector("[data-search-status]");
   const emptyState = document.querySelector("[data-empty-state]");
+  const emptyStateMessage = document.querySelector("[data-empty-state-message]");
   const clearSearch = document.querySelector("[data-clear-search]");
   const clearFilters = document.querySelector("[data-clear-filters]");
   const cards = [...document.querySelectorAll("[data-card]")];
@@ -113,6 +114,11 @@
     const resultLabel = resultCount === 1 ? "result" : "results";
 
     emptyState.hidden = resultCount !== 0;
+    if (resultCount === 0) {
+      emptyStateMessage.textContent = categoryName
+        ? `No matching listings found in ${categoryName}.`
+        : "No matching listings found in any category.";
+    }
     clearFilters.hidden = !query && !selectedCategory;
     root.classList.toggle("has-search-query", isSearching);
 
