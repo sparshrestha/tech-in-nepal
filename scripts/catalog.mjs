@@ -5,6 +5,10 @@ const TOC_ITEM_PATTERN = /^- \[([^\]]+)\]\(#([^)]+)\)\s*$/;
 const LISTING_PATTERN = /^- \[([^\]]+)\]\(([^)]+)\) - (.+?)\s*$/;
 const LISTING_LIKE_PATTERN = /^- \[[^\]]+\]\([^)]+\)/;
 const POST_CATALOG_HEADINGS = new Set(["Stargazers over time", "StarMapper"]);
+const LISTING_NAME_COLLATOR = new Intl.Collator("en", {
+  sensitivity: "base",
+  numeric: true
+});
 
 export function slugify(value) {
   return value
@@ -146,6 +150,18 @@ export function validateCatalog(catalog) {
 
     if (category.items.length === 0) {
       errors.push(`README.md:${category.line} category "${category.name}" has no listings.`);
+    }
+
+    for (let index = 1; index < category.items.length; index += 1) {
+      const previous = category.items[index - 1];
+      const current = category.items[index];
+
+      if (LISTING_NAME_COLLATOR.compare(previous.name, current.name) > 0) {
+        errors.push(
+          `README.md:${current.line} category "${category.name}" must be alphabetical: ` +
+            `"${current.name}" should appear before "${previous.name}".`
+        );
+      }
     }
   }
 

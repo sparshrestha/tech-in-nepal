@@ -83,6 +83,24 @@ test("requires the README table of index to match categories", () => {
   assert.ok(errors.some((error) => error.includes("table of index")));
 });
 
+test("requires listings within each category to be alphabetical", () => {
+  const outOfOrder = validReadme.replace(
+    "- [Example Labs](https://example.com/) - Builds useful software.",
+    [
+      "- [Zulu Labs](https://zulu.example.com/) - Builds useful software.",
+      "- [Alpha Labs](https://alpha.example.com/) - Builds useful software."
+    ].join("\n")
+  );
+  const errors = validateCatalog(parseCatalog(outOfOrder));
+
+  assert.ok(
+    errors.some((error) =>
+      error.includes('category "Software Companies" must be alphabetical')
+    )
+  );
+  assert.ok(errors.some((error) => error.includes('"Alpha Labs" should appear before "Zulu Labs"')));
+});
+
 test("rejects duplicate normalized URLs", () => {
   const duplicate = validReadme.replace(
     "https://learn.example.com/path/",

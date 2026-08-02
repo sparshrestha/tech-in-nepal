@@ -51,8 +51,8 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [EwanByte](https://ewanbyte.com/) - EwanByte is a product-based organization focused on building high-quality mobile applications and web solutions. Located in Rupandehi, EwanByte specializes in developing scalable, user-centric digital products that address real-world problems through modern technology and thoughtful design.
 - [F1Soft](https://f1soft.com/) - Our solutions connect people to financial services in simple, secure and affordable ways.
 - [Fusemachines Inc.](https://www.fusemachines.com/) - Fusemachines is positioned to disrupt the business landscape through our AI Talent Solutions
-- [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
 - [Genese Cloud Academy](https://www.genesecloud.academy/) - Introduce, train, and upskill students in Cloud Computing ecosystem
+- [Genese Solution Limited](https://www.genesesolution.com/) - A leading global Software Development & Cloud Consulting Company
 - [Janaki Tech](http://janakitech.com/) - Janaki Technology
 - [Leapfrog Technology](https://www.lftechnology.com/) - We build world-class software for you
 - [Mandala IT Solutions](https://mandalaitsolutions.com/) - Mandala IT Solutions
@@ -76,8 +76,8 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [bugv](https://bugv.io/) - Nepal First Crowdsourced Cyber Security Platform
 - [CryptoGen Nepal](https://cryptogennepal.com/) - A Cyber Security Solutions company that aims to provide professional cyber security solutions
 - [Cynical Technology](https://cynicaltechnology.com/) - A Kathmandu-based cyber-security startup company
-- [SayCure](https://saycure.io/) - We are a group of young, enthusiastic and like minded people based in Nepal working together through our expertise in various domains of information security for a common goal of securing the Internet cyber space.
 - [EMINENCE WAYS](https://eminenceways.com/) - SECURES YOUR DATA FROM UNAUTHORIZED ACCESS OR MODIFICATION
+- [SayCure](https://saycure.io/) - We are a group of young, enthusiastic and like minded people based in Nepal working together through our expertise in various domains of information security for a common goal of securing the Internet cyber space.
 - [Vairav Technology](https://vairav.net/) - SOC AS A SERVICE - cybersecurity incidents and threats, and prevent cyberattacks.
 
 
@@ -110,6 +110,7 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 
 
 ## Mobile Apps
+- [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 - [eSewa](https://play.google.com/store/apps/details?id=com.f1soft.esewa) - eSewa - Mobile Wallet (Nepal)
 - [Foodmandu](https://play.google.com/store/apps/details?id=com.app.foodmandu) - Foodmandu
 - [HamroPatro.com](https://play.google.com/store/apps/details?id=com.hamropatro) - Want to know what's happening in Nepal? Stay connected to Nepal with Hamro Patro, providing you access to Nepali calendar, latest news, forex rate, radio stream
@@ -124,7 +125,6 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [redDoko](https://play.google.com/store/apps/details?id=com.reddoko.buyers) - redDoko: Online Shopping
 - [Tootle](https://play.google.com/store/apps/details?id=com.three60.cabioclient) - Tootle Ride Sharing App
 - [TripNp](https://play.google.com/store/apps/details?id=com.tripnptechnologies.tripnp) - Bus Ticketing Service
-- [Baghchal](https://play.google.com/store/apps/details?id=com.sudarshanz&hl=en_US) - Android game based on the traditional nepali game by the same name.
 
 ## News Apps
 - [eparewa](https://www.eparewa.com/) - Nepal's Smartest News Platform, National News Aggregator Powered by AI. A product of Parewa Inc.
@@ -154,35 +154,35 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [EwanBlog](https://ewanblog.com/) - Well researched articles,insights,and perspectives on tech related topics to keep readers up to date with ideas,trends,and practical knowledge.
 - [Geshan's Blog](https://geshan.com.np/) - Sr. Software Engineer | Agile follower | Speaker | Google Developer Expert
 - [Nabin Khair](https://nabinkhair.com.np/blog) - Software engineering blog covering web development, TypeScript, Next.js, AI engineering, and related technical topics. Authored by a Nepal-based computer engineer.
-- [Verbose Tethics Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
 - [Samundra Khatri](https://www.samundrakc.com.np/blog/) - Samundra Khatri
+- [Verbose Tethics Blog by Sparsh](https://blog.sparsh.dev/) - Thoughts, ideas & opinions around software engineering and architecture. Context switching between product-first and code-first axes.
 - [Yarsa Labs Devblog](https://blog.yarsalabs.com/) - Technical Writings on Game Design, Software Engineering, Security & Operations
 
 
 ## YouTube Channels
+- [Carmandu](https://www.youtube.com/channel/UCICbxV8k_oFsXS7ljwSuyMA) - All about Cars
 - [GadgetByte](https://www.youtube.com/c/GadgetByte) - GadgetByte is a Tech Review News Portal that gives the users information, tools, and advice that will help them decide get the most out of the Tech.
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
+- [Lokesh Oli](https://www.youtube.com/user/mrhdnepal) - Everything technology.
+- [Nepal Drives](https://www.youtube.com/channel/UCvKCK6__-Gqut5vhuzSpXzA) - News on cars in nepal and international countries.
+- [Oliz Store](https://www.youtube.com/channel/UCYzJGfe3dXbLOifGwprNosg) - Gadget reviews.
+- [ON AIR](https://www.youtube.com/user/becomingsanjay) - Welcome to the official YouTube channel of Sanjay Silwal Gupta. We present you with diverse informative and entertaining segments with multiple Nepali extraordinaire belonging to various professional sectors.
 - [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
+- [Paradygm TV](https://www.youtube.com/c/ParadygmTV/) - Paradygm TV
 - [TechGuff](https://www.youtube.com/channel/UCNoTZPltvFF8TUsYKKNsSSg/) - Unboxing and Review
 - [Technology Channel](https://www.youtube.com/channel/UCrIqYP0lBVMxbX9mbRs6Avw/) - Bishworaj Poudel
 - [The Doers Nepal](https://www.youtube.com/c/TheDoersNepal/) - We believe Nepal has tons of opportunities. We want to bring these people who are doing amazing things and talk to them about why and how are they doing the things they are doing
-- [Lokesh Oli](https://www.youtube.com/user/mrhdnepal) - Everything technology.
-- [Nepal Drives](https://www.youtube.com/channel/UCvKCK6__-Gqut5vhuzSpXzA) - News on cars in nepal and international countries.
-- [Carmandu](https://www.youtube.com/channel/UCICbxV8k_oFsXS7ljwSuyMA) - All about Cars
-- [Oliz Store](https://www.youtube.com/channel/UCYzJGfe3dXbLOifGwprNosg) - Gadget reviews.
-- [ON AIR](https://www.youtube.com/user/becomingsanjay) - Welcome to the official YouTube channel of Sanjay Silwal Gupta. We present you with diverse informative and entertaining segments with multiple Nepali extraordinaire belonging to various professional sectors.
-- [Paradygm TV](https://www.youtube.com/c/ParadygmTV/) - Paradygm TV
 
 
 ## ISP Internet Service Providers
 - [CG NET](https://cgnet.com.np/) - CG NET
 - [Classic Tech](https://www.classic.com.np/) - Classic Tech
 - [NTC](https://www.ntc.net.np/) - Nepal Telecom
+- [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [Subisu](https://subisu.net.np/) - Subisu
 - [Vianet](https://www.vianet.com.np/) - Vianet
-- [Worldlink](https://worldlink.com.np/) - Worldlink
-- [Pokhara Internet](https://www.pokharainternet.com.np/) - Pokhara Internet
 - [WebSurfer Nepal](https://websurfer.com.np/) - WebSurfer Nepal
+- [Worldlink](https://worldlink.com.np/) - Worldlink
 
 ## StarMapper
 <a href="https://starmapper.bruniaux.com/sparshrestha/tech-in-nepal">
