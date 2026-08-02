@@ -30,8 +30,9 @@ Descriptions should explain what the organization, product or resource does. Avo
 Before submitting, confirm that:
 
 - The listing has a clear connection to Nepal's technology ecosystem.
-- The URL is public, working and points to the primary source where possible.
+- The URL is public, working, uses HTTPS when available and points to the primary source where possible.
 - The same URL is not already listed.
+- The listing is placed alphabetically by name within its category.
 - The description is concise, factual and written in neutral language.
 
 ## Keep changes reviewable
@@ -49,6 +50,8 @@ npm test
 npm run validate
 npm run build
 ```
+
+To report legacy HTTP URLs and check whether they redirect to HTTPS, run `npm run audit:http`.
 
 CI runs the same catalog checks. A maintainer may edit a description for neutrality or ask for evidence of relevance before merging.
 

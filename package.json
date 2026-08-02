@@ -5,6 +5,7 @@
   "type": "module",
   "description": "README-driven static catalog for Nepal's technology ecosystem.",
   "scripts": {
+    "audit:http": "node scripts/audit-http-urls.mjs",
     "validate": "node scripts/validate-catalog.mjs",
     "test": "node --test",
     "build": "node scripts/build-site.mjs"
