@@ -23,11 +23,16 @@ function joinUrl(origin, basePath, suffix = "") {
 }
 
 function renderCategoryNav(categories) {
-  return categories
+  return [{ name: "All", id: "" }, ...categories]
     .map(
       (category) => `
         <li>
-          <a class="category-chip" href="#${escapeHtml(category.id)}">
+          <a
+            class="category-chip${category.id ? "" : " is-active"}"
+            href="#${escapeHtml(category.id || "catalog")}"
+            data-category-filter="${escapeHtml(category.id)}"
+            data-category-name="${escapeHtml(category.name)}"${category.id ? "" : ' aria-current="true"'}
+          >
             <span>${escapeHtml(category.name)}</span>
           </a>
         </li>`
