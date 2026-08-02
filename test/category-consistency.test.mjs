@@ -38,7 +38,9 @@ test("category metadata and submission options match the README catalog", async 
 
   for (const [name, meta] of Object.entries(categoryMeta)) {
     assert.ok(meta.icon, `${name} must define an icon`);
-    assert.match(renderCategoryIcon(meta.icon), /^<svg class="category-icon"/);
+    const renderedIcon = renderCategoryIcon(meta.icon);
+    assert.match(renderedIcon, /^<svg class="category-icon"/);
+    assert.match(renderedIcon, /width="1em" height="1em" fill="none" stroke="currentColor"/);
     assert.ok(meta.description, `${name} must define a description`);
   }
 });
