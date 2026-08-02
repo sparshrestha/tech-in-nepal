@@ -2,7 +2,7 @@ import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { catalogSummary, parseCatalog, validateCatalog } from "./catalog.mjs";
-import { categoryMeta } from "./category-meta.mjs";
+import { categoryMeta, renderCategoryIcon } from "./category-meta.mjs";
 import { escapeHtml, renderCard } from "./render-card.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -45,7 +45,7 @@ function renderCategorySections(categories) {
     .map((category) => {
       const cards = category.items.map(renderCard).join("");
       const meta = categoryMeta[category.name] ?? {
-        icon: "◆",
+        icon: "directory",
         description: "Community-curated projects and resources connected to Nepal."
       };
       const showMore =
@@ -56,12 +56,16 @@ function renderCategorySections(categories) {
               <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3.5 6 4.5 4 4.5-4" /></svg>
             </button>`
           : "";
+      const countLabel = `${category.items.length} ${category.items.length === 1 ? "listing" : "listings"}`;
 
       return `
         <section class="catalog-section" id="${escapeHtml(category.id)}" data-section>
           <div class="section-heading">
-            <h2><span aria-hidden="true">${meta.icon}</span> ${escapeHtml(category.name)}</h2>
-            <span class="section-heading__count">${category.items.length}</span>
+            <h2>${renderCategoryIcon(meta.icon)} ${escapeHtml(category.name)}</h2>
+            <span class="section-heading__count">
+              <span aria-hidden="true">${category.items.length}</span>
+              <span class="visually-hidden">${countLabel}</span>
+            </span>
           </div>
           <p class="catalog-section__description">${escapeHtml(meta.description)}</p>
           <div class="catalog-grid" data-grid>
@@ -120,6 +124,7 @@ if (validationErrors.length > 0) {
 const basePath = normalizeBasePath(process.env.BASE_PATH ?? config.basePath);
 const siteOrigin = (process.env.SITE_ORIGIN ?? config.url).replace(/\/+$/, "");
 const canonicalUrl = joinUrl(siteOrigin, basePath);
+const socialImageUrl = joinUrl(siteOrigin, basePath, "assets/tech-in-nepal-readme-hero.webp");
 const assetBase = basePath;
 const renderedHtml = replaceTokens(template, {
   ASSET_BASE: escapeHtml(assetBase),
@@ -127,6 +132,7 @@ const renderedHtml = replaceTokens(template, {
   CATEGORY_NAV: renderCategoryNav(catalog.categories),
   CATEGORY_SECTIONS: renderCategorySections(catalog.categories),
   DESCRIPTION: escapeHtml(config.description),
+  OG_IMAGE_URL: escapeHtml(socialImageUrl),
   REPOSITORY_URL: escapeHtml(config.repositoryUrl),
   SITE_TITLE: escapeHtml(config.title),
   STRUCTURED_DATA: renderStructuredData(catalog, config, canonicalUrl),
@@ -158,6 +164,10 @@ await mkdir(outputDirectory, { recursive: true });
 await cp(path.join(sourceDirectory, "assets"), path.join(outputDirectory, "assets"), {
   recursive: true
 });
+await cp(
+  path.join(root, ".github/assets/tech-in-nepal-readme-hero.webp"),
+  path.join(outputDirectory, "assets/tech-in-nepal-readme-hero.webp")
+);
 
 await Promise.all([
   writeFile(path.join(outputDirectory, "index.html"), renderedHtml),
