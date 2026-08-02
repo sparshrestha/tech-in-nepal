@@ -2,6 +2,9 @@
   const root = document.documentElement;
   const themeToggle = document.querySelector("[data-theme-toggle]");
   const themeColor = document.querySelector('meta[name="theme-color"]');
+  const githubLink = document.querySelector("[data-github-repository]");
+  const githubStars = document.querySelector("[data-github-stars]");
+  const githubStarCount = document.querySelector("[data-github-star-count]");
   const searchInput = document.querySelector("[data-search-input]");
   const searchStatus = document.querySelector("[data-search-status]");
   const emptyState = document.querySelector("[data-empty-state]");
@@ -33,6 +36,84 @@
   themeToggle?.addEventListener("click", () => {
     setTheme(root.dataset.theme === "dark" ? "light" : "dark");
   });
+
+  function showGithubStars(count) {
+    const formattedCount = new Intl.NumberFormat("en-US").format(count);
+    const starLabel = count === 1 ? "star" : "stars";
+
+    githubStarCount.textContent = formattedCount;
+    githubStars.classList.add("is-visible");
+    githubLink.setAttribute(
+      "aria-label",
+      `Tech in Nepal on GitHub, ${formattedCount} ${starLabel}`
+    );
+  }
+
+  async function loadGithubStars() {
+    if (!githubLink || !githubStars || !githubStarCount) return;
+
+    let repositoryUrl;
+    try {
+      repositoryUrl = new URL(githubLink.dataset.githubRepository);
+    } catch {
+      return;
+    }
+
+    const [owner, repositoryName] = repositoryUrl.pathname.split("/").filter(Boolean);
+    const repository = repositoryName?.replace(/\.git$/i, "");
+    if (repositoryUrl.hostname !== "github.com" || !owner || !repository) return;
+
+    const cacheKey = `tech-in-nepal:github-stars:${owner}/${repository}`;
+    const cacheLifetime = 30 * 60 * 1000;
+
+    try {
+      const cached = JSON.parse(localStorage.getItem(cacheKey));
+      const cacheIsFresh =
+        Number.isInteger(cached?.count) &&
+        cached.count >= 0 &&
+        Number.isFinite(cached?.cachedAt) &&
+        Date.now() - cached.cachedAt < cacheLifetime;
+
+      if (cacheIsFresh) {
+        showGithubStars(cached.count);
+        return;
+      }
+    } catch {
+      // Fetch a fresh count when browser storage is unavailable or invalid.
+    }
+
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 2000);
+
+    try {
+      const response = await fetch(
+        `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repository)}`,
+        {
+          credentials: "omit",
+          headers: { Accept: "application/vnd.github+json" },
+          signal: controller.signal
+        }
+      );
+      if (!response.ok) return;
+
+      const payload = await response.json();
+      const count = Number(payload.stargazers_count);
+      if (!Number.isInteger(count) || count < 0) return;
+
+      showGithubStars(count);
+      try {
+        localStorage.setItem(cacheKey, JSON.stringify({ count, cachedAt: Date.now() }));
+      } catch {
+        // The live count can still be shown when browser storage is unavailable.
+      }
+    } catch {
+      // Keep the GitHub link usable and hide the count when the request fails.
+    } finally {
+      window.clearTimeout(timeout);
+    }
+  }
+
+  void loadGithubStars();
 
   function normalizeSearchText(value) {
     return String(value)
@@ -78,11 +159,13 @@
     const query = searchInput.value.trim();
     const tokens = queryTokens(query);
     const isSearching = tokens.length > 0;
+    const categoryMatchCounts = new Map();
     let resultCount = 0;
 
     for (const section of sections) {
       const sectionCards = [...section.querySelectorAll("[data-card]")];
       const matchesCategory = !selectedCategory || section.id === selectedCategory;
+      let categoryMatchCount = 0;
       let sectionResultCount = 0;
 
       for (const card of sectionCards) {
@@ -92,9 +175,11 @@
 
         card.classList.toggle("is-searching", isSearching);
         card.hidden = !matches;
+        if (matchesSearch) categoryMatchCount += 1;
         if (matches) sectionResultCount += 1;
       }
 
+      categoryMatchCounts.set(section.id, categoryMatchCount);
       resultCount += sectionResultCount;
       section.hidden = !matchesCategory || (isSearching && sectionResultCount === 0);
 
@@ -103,10 +188,25 @@
     }
 
     for (const filter of categoryFilters) {
-      const active = filter.dataset.categoryFilter === selectedCategory;
+      const category = filter.dataset.categoryFilter;
+      const matchCount = categoryMatchCounts.get(category) ?? 0;
+      const active = category === selectedCategory;
+      const hasMatches = Boolean(category) && isSearching && matchCount > 0;
+
       filter.classList.toggle("is-active", active);
+      filter.classList.toggle("has-matches", hasMatches);
       if (active) filter.setAttribute("aria-current", "true");
       else filter.removeAttribute("aria-current");
+
+      if (hasMatches) {
+        const listingLabel = matchCount === 1 ? "listing" : "listings";
+        filter.setAttribute(
+          "aria-label",
+          `${filter.dataset.categoryName}, ${matchCount} matching ${listingLabel}`
+        );
+      } else {
+        filter.removeAttribute("aria-label");
+      }
     }
 
     const categoryName = selectedCategoryName();
@@ -116,8 +216,8 @@
     emptyState.hidden = resultCount !== 0;
     if (resultCount === 0) {
       emptyStateMessage.textContent = categoryName
-        ? `No matching listings found in ${categoryName}.`
-        : "No matching listings found in any category.";
+        ? `Not found in ${categoryName}.`
+        : "Not found in any category.";
     }
     clearFilters.hidden = !query && !selectedCategory;
     root.classList.toggle("has-search-query", isSearching);
