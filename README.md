@@ -165,6 +165,7 @@ Listings are reviewed against the public criteria in the [contribution guide](CO
 - [GadgetByte Nepal](https://www.youtube.com/user/gadgetbytenepal) - GadgetByte Nepal
 - [Lokesh Oli](https://www.youtube.com/user/mrhdnepal) - Everything technology.
 - [Nepal Drives](https://www.youtube.com/channel/UCvKCK6__-Gqut5vhuzSpXzA) - News on cars in nepal and international countries.
+- [Nepal Revives](https://revivesnepal.com) - Produces contents like shorts, YouTube videos, mini-docs, blog articles, related to Nepali history, culture, religion and geo-politics with a motto of helping people understand Nepal better.
 - [Oliz Store](https://www.youtube.com/channel/UCYzJGfe3dXbLOifGwprNosg) - Gadget reviews.
 - [ON AIR](https://www.youtube.com/user/becomingsanjay) - Welcome to the official YouTube channel of Sanjay Silwal Gupta. We present you with diverse informative and entertaining segments with multiple Nepali extraordinaire belonging to various professional sectors.
 - [Padain](https://www.youtube.com/channel/UCydg2NoQN9lMTW1VIMlbGiA/) - Padain.com
