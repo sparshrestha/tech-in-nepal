@@ -672,15 +672,6 @@ svg {
   line-height: 1.35;
 }
 
-.listing-card__title a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.listing-card__title a:hover {
-  color: var(--accent);
-}
-
 .listing-card__description {
   display: -webkit-box;
   margin: 0;
@@ -725,6 +716,18 @@ svg {
 .listing-card__meta a:hover {
   color: var(--accent);
   text-decoration: underline;
+}
+
+.listing-card__warning {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--danger);
+}
+
+.listing-card__warning svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1.75;
 }
 
 .show-more {

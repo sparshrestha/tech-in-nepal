@@ -38,7 +38,8 @@ jobs:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: |
           npm test
-          npm run build
+          npm run audit:http -- --output=/tmp/link-status.json
+          LINK_STATUS_FILE=/tmp/link-status.json npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
