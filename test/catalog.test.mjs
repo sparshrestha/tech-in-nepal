@@ -54,10 +54,12 @@ test("renders item URLs as safe new-tab links", () => {
   );
   const links = html.match(/<a\b[^>]*>/g) ?? [];
 
-  assert.equal(links.length, 1);
-  assert.match(links[0], /href="https:\/\/example\.com\/"/);
-  assert.match(links[0], /target="_blank"/);
-  assert.match(links[0], /rel="noopener noreferrer"/);
+  assert.equal(links.length, 2);
+  for (const link of links) {
+    assert.match(link, /href="https:\/\/example\.com\/"/);
+    assert.match(link, /target="_blank"/);
+    assert.match(link, /rel="noopener noreferrer"/);
+  }
 });
 
 test("renders a warning icon when an automated link check fails", () => {

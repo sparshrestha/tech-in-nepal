@@ -672,6 +672,15 @@ svg {
   line-height: 1.35;
 }
 
+.listing-card__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.listing-card__title a:hover {
+  color: var(--accent);
+}
+
 .listing-card__description {
   display: -webkit-box;
   margin: 0;
