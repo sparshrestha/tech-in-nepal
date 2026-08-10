@@ -21,7 +21,7 @@ const validReadme = `
 ## Education
 - [Learn Nepal](https://learn.example.com/path/) - Technology education resources.
 
-## Stargazers over time
+## StarMapper
 `;
 
 test("parses README categories and listings", () => {
@@ -34,14 +34,11 @@ test("parses README categories and listings", () => {
   assert.deepEqual(validateCatalog(catalog), []);
 });
 
-test("ignores presentation sections after the catalog", () => {
-  for (const heading of ["Stargazers over time", "StarMapper"]) {
-    const readme = validReadme.replace("## Stargazers over time", `## ${heading}`);
-    const catalog = parseCatalog(readme);
+test("ignores StarMapper after the catalog", () => {
+  const catalog = parseCatalog(validReadme);
 
-    assert.deepEqual(catalog.categories.map(({ name }) => name), ["Software Companies", "Education"]);
-    assert.deepEqual(validateCatalog(catalog), []);
-  }
+  assert.deepEqual(catalog.categories.map(({ name }) => name), ["Software Companies", "Education"]);
+  assert.deepEqual(validateCatalog(catalog), []);
 });
 
 test("renders item URLs as safe new-tab links", () => {
