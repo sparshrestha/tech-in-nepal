@@ -4,7 +4,6 @@ const HEADING_PATTERN = /^##\s+(.+?)\s*$/;
 const TOC_ITEM_PATTERN = /^- \[([^\]]+)\]\(#([^)]+)\)\s*$/;
 const LISTING_PATTERN = /^- \[([^\]]+)\]\(([^)]+)\) - (.+?)\s*$/;
 const LISTING_LIKE_PATTERN = /^- \[[^\]]+\]\([^)]+\)/;
-const POST_CATALOG_HEADINGS = new Set(["Stargazers over time", "StarMapper"]);
 const LISTING_NAME_COLLATOR = new Intl.Collator("en", {
   sensitivity: "base",
   numeric: true
@@ -69,7 +68,7 @@ export function parseCatalog(markdown) {
         return;
       }
 
-      if (POST_CATALOG_HEADINGS.has(heading)) {
+      if (heading === "StarMapper") {
         state = "done";
         currentCategory = null;
         return;
