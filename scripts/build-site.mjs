@@ -51,10 +51,12 @@ function renderCategoryNav(categories) {
     .join("");
 }
 
-function renderCategorySections(categories) {
+function renderCategorySections(categories, linkStatus) {
   return categories
     .map((category) => {
-      const cards = category.items.map(renderCard).join("");
+      const cards = category.items
+        .map((item, index) => renderCard(item, index, linkStatus.unverifiedUrls.has(item.url)))
+        .join("");
       const meta = categoryMeta[category.name] ?? {
         icon: "directory",
         description: "Community-curated projects and resources connected to Nepal."
@@ -129,6 +131,12 @@ const [readme, template, configSource, stylesheetSource, clientScriptSource] = a
 const config = JSON.parse(configSource);
 const catalog = parseCatalog(readme);
 const validationErrors = validateCatalog(catalog);
+const linkStatusSource = process.env.LINK_STATUS_FILE
+  ? JSON.parse(await readFile(process.env.LINK_STATUS_FILE, "utf8"))
+  : { unverifiedUrls: [] };
+const linkStatus = {
+  unverifiedUrls: new Set(linkStatusSource.unverifiedUrls ?? [])
+};
 
 if (validationErrors.length > 0) {
   throw new Error(`Catalog validation failed:\n${validationErrors.map((error) => `- ${error}`).join("\n")}`);
@@ -143,7 +151,7 @@ const renderedHtml = replaceTokens(template, {
   ASSET_BASE: escapeHtml(assetBase),
   CANONICAL_URL: escapeHtml(canonicalUrl),
   CATEGORY_NAV: renderCategoryNav(catalog.categories),
-  CATEGORY_SECTIONS: renderCategorySections(catalog.categories),
+  CATEGORY_SECTIONS: renderCategorySections(catalog.categories, linkStatus),
   DESCRIPTION: escapeHtml(config.description),
   OG_IMAGE_URL: escapeHtml(socialImageUrl),
   REPOSITORY_URL: escapeHtml(config.repositoryUrl),

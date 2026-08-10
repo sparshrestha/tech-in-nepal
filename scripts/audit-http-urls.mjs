@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { parseCatalog } from "./catalog.mjs";
@@ -9,6 +9,7 @@ const catalog = parseCatalog(readme);
 const httpListings = catalog.items.filter((item) => item.url.startsWith("http://"));
 const requestTimeout = 10_000;
 const redirectLimit = 6;
+const outputPath = process.argv.find((argument) => argument.startsWith("--output="))?.slice(9);
 
 function describeError(error) {
   if (!(error instanceof Error)) return String(error);
@@ -79,6 +80,8 @@ async function inspectRedirects(listing) {
   }
 }
 
+let results = [];
+
 if (httpListings.length === 0) {
   console.log("HTTP URL audit passed: all catalog listings use HTTPS.");
 } else {
@@ -86,7 +89,7 @@ if (httpListings.length === 0) {
     `HTTP URL audit: ${httpListings.length} plaintext URL${httpListings.length === 1 ? "" : "s"}.`
   );
 
-  const results = await Promise.all(httpListings.map(inspectRedirects));
+  results = await Promise.all(httpListings.map(inspectRedirects));
   const redirects = results.filter((result) => result.redirectsToHttps);
   const insecure = results.filter((result) => !result.redirectsToHttps && !result.error);
   const failed = results.filter((result) => result.error);
@@ -107,4 +110,12 @@ if (httpListings.length === 0) {
   failed.forEach(({ listing, error }) => {
     console.log(`- README.md:${listing.line} ${listing.name}: ${listing.url} (${error})`);
   });
+}
+
+if (outputPath) {
+  const status = {
+    unverifiedUrls: results.filter((result) => result.error).map(({ listing }) => listing.url)
+  };
+
+  await writeFile(outputPath, `${JSON.stringify(status, null, 2)}\n`);
 }
