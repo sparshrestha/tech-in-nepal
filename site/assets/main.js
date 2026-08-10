@@ -38,79 +38,26 @@
     setTheme(root.dataset.theme === "dark" ? "light" : "dark");
   });
 
-  function showGithubStars(count) {
-    const formattedCount = new Intl.NumberFormat("en-US").format(count);
-    const starLabel = count === 1 ? "star" : "stars";
-
-    githubStarCount.textContent = formattedCount;
-    githubStars.classList.add("is-visible");
-    githubLink.setAttribute(
-      "aria-label",
-      `Tech in Nepal on GitHub, ${formattedCount} ${starLabel}`
-    );
-  }
-
   async function loadGithubStars() {
     if (!githubLink || !githubStars || !githubStarCount) return;
 
-    let repositoryUrl;
     try {
-      repositoryUrl = new URL(githubLink.dataset.githubRepository);
-    } catch {
-      return;
-    }
-
-    const [owner, repositoryName] = repositoryUrl.pathname.split("/").filter(Boolean);
-    const repository = repositoryName?.replace(/\.git$/i, "");
-    if (repositoryUrl.hostname !== "github.com" || !owner || !repository) return;
-
-    const cacheKey = `tech-in-nepal:github-stars:${owner}/${repository}`;
-    const cacheLifetime = 30 * 60 * 1000;
-
-    try {
-      const cached = JSON.parse(localStorage.getItem(cacheKey));
-      const cacheIsFresh =
-        Number.isInteger(cached?.count) &&
-        cached.count >= 0 &&
-        Number.isFinite(cached?.cachedAt) &&
-        Date.now() - cached.cachedAt < cacheLifetime;
-
-      if (cacheIsFresh) {
-        showGithubStars(cached.count);
-        return;
-      }
-    } catch {
-      // Fetch a fresh count when browser storage is unavailable or invalid.
-    }
-
-    const controller = new AbortController();
-    const timeout = window.setTimeout(() => controller.abort(), 2000);
-
-    try {
-      const response = await fetch(
-        `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repository)}`,
-        {
-          credentials: "omit",
-          headers: { Accept: "application/vnd.github+json" },
-          signal: controller.signal
-        }
-      );
+      const response = await fetch("https://api.github.com/repos/sparshrestha/tech-in-nepal");
       if (!response.ok) return;
 
       const payload = await response.json();
       const count = Number(payload.stargazers_count);
       if (!Number.isInteger(count) || count < 0) return;
 
-      showGithubStars(count);
-      try {
-        localStorage.setItem(cacheKey, JSON.stringify({ count, cachedAt: Date.now() }));
-      } catch {
-        // The live count can still be shown when browser storage is unavailable.
-      }
+      const formattedCount = count.toLocaleString("en-US");
+      githubStarCount.textContent = formattedCount;
+      githubStars.classList.add("is-visible");
+      githubLink.setAttribute(
+        "aria-label",
+        `Tech in Nepal on GitHub, ${formattedCount} ${count === 1 ? "star" : "stars"}`
+      );
     } catch {
-      // Keep the GitHub link usable and hide the count when the request fails.
-    } finally {
-      window.clearTimeout(timeout);
+      // Keep the GitHub link usable when the request fails.
     }
   }
 
