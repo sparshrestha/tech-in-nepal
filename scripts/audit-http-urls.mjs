@@ -79,24 +79,6 @@ async function inspectRedirects(listing) {
   }
 }
 
-async function inspectAll(listings, concurrency = 4) {
-  const results = new Array(listings.length);
-  let nextIndex = 0;
-
-  async function worker() {
-    while (nextIndex < listings.length) {
-      const index = nextIndex;
-      nextIndex += 1;
-      results[index] = await inspectRedirects(listings[index]);
-    }
-  }
-
-  await Promise.all(
-    Array.from({ length: Math.min(concurrency, listings.length) }, () => worker())
-  );
-  return results;
-}
-
 if (httpListings.length === 0) {
   console.log("HTTP URL audit passed: all catalog listings use HTTPS.");
 } else {
@@ -104,7 +86,7 @@ if (httpListings.length === 0) {
     `HTTP URL audit: ${httpListings.length} plaintext URL${httpListings.length === 1 ? "" : "s"}.`
   );
 
-  const results = await inspectAll(httpListings);
+  const results = await Promise.all(httpListings.map(inspectRedirects));
   const redirects = results.filter((result) => result.redirectsToHttps);
   const insecure = results.filter((result) => !result.redirectsToHttps && !result.error);
   const failed = results.filter((result) => result.error);
