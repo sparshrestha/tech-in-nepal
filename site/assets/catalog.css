@@ -1,16 +1,16 @@
 :root {
   color-scheme: light;
   --paper: #ffffff;
-  --paper-deep: #f8f8f8;
+  --paper-deep: #fafafa;
   --surface: #ffffff;
-  --ink: #171717;
-  --ink-soft: #6f6f6f;
-  --line: #e5e5e5;
-  --line-strong: #c7c7c7;
-  --accent: #2563eb;
-  --accent-soft: #dbeafe;
+  --ink: #09090b;
+  --ink-soft: #71717a;
+  --line: #e4e4e7;
+  --line-strong: #a1a1aa;
+  --accent: var(--ink);
+  --accent-soft: #f4f4f5;
   --danger: #ef4444;
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
   --shell: 1200px;
   --radius: 10px;
   --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -19,16 +19,15 @@
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --paper: #0f0f0f;
-  --paper-deep: #151515;
-  --surface: #171717;
-  --ink: #f5f5f5;
-  --ink-soft: #a3a3a3;
-  --line: #373737;
-  --line-strong: #575757;
-  --accent: #60a5fa;
-  --accent-soft: #172554;
-  --shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --paper: #09090b;
+  --paper-deep: #18181b;
+  --surface: #0f0f12;
+  --ink: #fafafa;
+  --ink-soft: #a1a1aa;
+  --line: #27272a;
+  --line-strong: #52525b;
+  --accent-soft: #27272a;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 *,
@@ -289,7 +288,7 @@ svg {
 
 .hero {
   border-bottom: 1px solid var(--line);
-  background: linear-gradient(180deg, var(--paper-deep), var(--paper));
+  background: var(--paper);
 }
 
 .hero__layout {
@@ -487,7 +486,7 @@ svg {
   gap: 24px;
   margin-bottom: 16px;
   padding-bottom: 16px;
-  border-bottom: 2px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .section-heading h2,
@@ -553,12 +552,13 @@ svg {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
-  transition: border-color 180ms ease, box-shadow 180ms ease;
+  transition: border-color 160ms ease, background-color 160ms ease;
 }
 
-.listing-card:hover {
+.listing-card:hover,
+.listing-card:focus-within {
   border-color: var(--line-strong);
-  box-shadow: var(--shadow);
+  background: var(--paper-deep);
 }
 
 .listing-card.is-initially-hidden:not(.is-searching) {
@@ -588,7 +588,8 @@ svg {
 }
 
 .listing-card__title a:hover {
-  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .listing-card__description {
@@ -818,7 +819,8 @@ svg {
 }
 
 .site-footer__links a:hover {
-  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .site-footer__copyright {
