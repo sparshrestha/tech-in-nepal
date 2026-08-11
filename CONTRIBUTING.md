@@ -51,7 +51,7 @@ npm run validate
 npm run build
 ```
 
-To report legacy HTTP URLs and check whether they redirect to HTTPS, run `npm run audit:http`.
+To check listing availability and report legacy HTTP redirects, run `npm run audit:http`.
 
 CI runs the same catalog checks. A maintainer may edit a description for neutrality or ask for evidence of relevance before merging.
 

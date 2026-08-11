@@ -6,9 +6,9 @@ import { parseCatalog } from "./catalog.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const readme = await readFile(path.join(root, "README.md"), "utf8");
 const catalog = parseCatalog(readme);
-const httpListings = catalog.items.filter((item) => item.url.startsWith("http://"));
 const requestTimeout = 10_000;
 const redirectLimit = 6;
+const concurrency = 8;
 const outputPath = process.argv.find((argument) => argument.startsWith("--output="))?.slice(9);
 
 function describeError(error) {
@@ -22,7 +22,7 @@ function describeError(error) {
   return error.message;
 }
 
-async function inspectRedirects(listing) {
+async function inspectLink(listing) {
   let currentUrl = new URL(listing.url);
   const chain = [];
 
@@ -57,8 +57,9 @@ async function inspectRedirects(listing) {
       return {
         listing,
         chain,
+        error: response.status >= 300 ? `HTTP ${response.status}` : undefined,
         finalUrl: currentUrl.toString(),
-        redirectsToHttps: currentUrl.protocol === "https:"
+        redirectsToHttps: listing.url.startsWith("http://") && currentUrl.protocol === "https:"
       };
     }
 
@@ -80,41 +81,51 @@ async function inspectRedirects(listing) {
   }
 }
 
-let results = [];
+async function inspectLinks(listings) {
+  const results = new Array(listings.length);
+  let nextIndex = 0;
 
-if (httpListings.length === 0) {
-  console.log("HTTP URL audit passed: all catalog listings use HTTPS.");
-} else {
-  console.log(
-    `HTTP URL audit: ${httpListings.length} plaintext URL${httpListings.length === 1 ? "" : "s"}.`
-  );
+  async function worker() {
+    while (nextIndex < listings.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      results[index] = await inspectLink(listings[index]);
+    }
+  }
 
-  results = await Promise.all(httpListings.map(inspectRedirects));
-  const redirects = results.filter((result) => result.redirectsToHttps);
-  const insecure = results.filter((result) => !result.redirectsToHttps && !result.error);
-  const failed = results.filter((result) => result.error);
-
-  console.log(`\nRedirects to HTTPS (${redirects.length}):`);
-  redirects.forEach(({ listing, finalUrl, chain }) => {
-    const statuses = chain.map(({ status }) => status).join(" -> ");
-    console.log(`- README.md:${listing.line} ${listing.name}: ${listing.url} -> ${finalUrl} (${statuses})`);
-  });
-
-  console.log(`\nRemains on HTTP (${insecure.length}):`);
-  insecure.forEach(({ listing, finalUrl, chain }) => {
-    const status = chain.at(-1)?.status ?? "unknown status";
-    console.log(`- README.md:${listing.line} ${listing.name}: ${finalUrl} (${status})`);
-  });
-
-  console.log(`\nCould not verify (${failed.length}):`);
-  failed.forEach(({ listing, error }) => {
-    console.log(`- README.md:${listing.line} ${listing.name}: ${listing.url} (${error})`);
-  });
+  await Promise.all(Array.from({ length: Math.min(concurrency, listings.length) }, worker));
+  return results;
 }
+
+console.log(`Link audit: checking ${catalog.items.length} listings.`);
+
+const results = await inspectLinks(catalog.items);
+const redirects = results.filter((result) => result.redirectsToHttps);
+const insecure = results.filter(
+  (result) => result.listing.url.startsWith("http://") && !result.redirectsToHttps && !result.error
+);
+const failed = results.filter((result) => result.error);
+
+console.log(`\nRedirects to HTTPS (${redirects.length}):`);
+redirects.forEach(({ listing, finalUrl, chain }) => {
+  const statuses = chain.map(({ status }) => status).join(" -> ");
+  console.log(`- README.md:${listing.line} ${listing.name}: ${listing.url} -> ${finalUrl} (${statuses})`);
+});
+
+console.log(`\nRemains on HTTP (${insecure.length}):`);
+insecure.forEach(({ listing, finalUrl, chain }) => {
+  const status = chain.at(-1)?.status ?? "unknown status";
+  console.log(`- README.md:${listing.line} ${listing.name}: ${finalUrl} (${status})`);
+});
+
+console.log(`\nCould not verify (${failed.length}):`);
+failed.forEach(({ listing, error }) => {
+  console.log(`- README.md:${listing.line} ${listing.name}: ${listing.url} (${error})`);
+});
 
 if (outputPath) {
   const status = {
-    unverifiedUrls: results.filter((result) => result.error).map(({ listing }) => listing.url)
+    unverifiedUrls: failed.map(({ listing }) => listing.url)
   };
 
   await writeFile(outputPath, `${JSON.stringify(status, null, 2)}\n`);
